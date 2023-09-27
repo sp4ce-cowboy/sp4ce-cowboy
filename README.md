@@ -9,7 +9,7 @@ Intending to specialize in Robotics (Engineering side) && Artifical Intelligence
 Possibly a minor in Quantitative Finance, if I have the time.
 
 Mostly interested in platform-native app development, operating systems engineering,
-computer/software security,cyber-security architecture, embedded programming, machine learning,
+computer/software security, cyber-security architecture, embedded programming, machine learning,
 data analytics, and unix sysadmin stuff.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
