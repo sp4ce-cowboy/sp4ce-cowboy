@@ -1,4 +1,11 @@
-### Hi there 👋
+### [whoami](https://en.wikipedia.org/wiki/Whoami)
+
+Rubesh
+
+Engineering Undergrad @ [NUS](https://nus.edu.sg)
+
+Currently pursuing a double major in Mechanical Engineering and Computer Science.
+
 
 <!--
 **sp4ce-cowboy/sp4ce-cowboy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
