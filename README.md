@@ -8,7 +8,10 @@ Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
 
 Interested in platform-native app development, operating systems engineering,
-computer security, engineering modelling and occasionally, existential philosophy.
+software security, and cyber-security architecture.
+
+Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
+quantum mechanics, astrophysics and occasionally, existential philosophy.
 ```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
