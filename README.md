@@ -6,12 +6,14 @@ rubesh
 Engineering Undergrad @ [NUS](https://nus.edu.sg)
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
+Possibly a minor in Quantitative Finance, if I have the time.
 
-Interested in platform-native app development, operating systems engineering, software security,
-cyber-security architecture, embedded programming, machine learning and *anything* unix related.
+Mostly interested in platform-native app development, operating systems engineering,
+computer/software security,cyber-security architecture, embedded programming, machine learning,
+data analytics, and unix sysadmin stuff.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
-quantum mechanics, astrophysics and occasionally, existential philosophy.
+quantum mechanics, astrophysics and occasionally, existential philosophy and constitutional law.
 ```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
