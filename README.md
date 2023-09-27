@@ -4,9 +4,7 @@
 rubesh
 
 Engineering Undergrad @ [NUS](https://nus.edu.sg)
-
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
-
 Intending to specialize in Robotics (Engineering side) && AI (Computing side).
 
 Interested in platform-native app development, operating systems engineering,
