@@ -6,6 +6,9 @@ Engineering Undergrad @ [NUS](https://nus.edu.sg)
 
 Currently pursuing a double major in Mechanical Engineering and Computer Science.
 
+<img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=dracula" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=dracula&layout=compact" alt="sp4ce-cowboy" /> 
+
+
 
 <!--
 **sp4ce-cowboy/sp4ce-cowboy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
