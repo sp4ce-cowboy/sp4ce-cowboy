@@ -8,9 +8,9 @@ Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
 Possibly a minor in Quantitative Finance, if I have the time.
 
-Mostly interested in platform-native app development, operating systems engineering,
+Mostly interested in appleOS platform-native app development, operating systems engineering,
 computer/software security, cyber-security architecture, embedded programming, machine learning,
-data analytics, and unix sysadmin stuff.
+data analytics, and unix/unix-like sysadmin stuff.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
 quantum mechanics, astrophysics and occasionally, existential philosophy and constitutional law.
