@@ -1,11 +1,14 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 
-Rubesh
+```sh
+rubesh
 
 Engineering Undergrad @ [NUS](https://nus.edu.sg)
 
 Currently pursuing a double major in Mechanical Engineering and Computer Science.
 
+Intending to specialize in Robotics (Engineering side) and AI (Computing side).
+```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
 
