@@ -7,11 +7,11 @@ Engineering Undergrad @ [NUS](https://nus.edu.sg)
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
 
-Interested in platform-native app development, operating systems engineering,
-software security, and cyber-security architecture.
+Interested in platform-native app development, operating systems engineering, software security,
+cyber-security architecture, embedded programming, machine learning and *anything* unix related.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
-quantum mechanics, astrophysics and occasionally, existential philosophy.
+quantum mechanics, astrophysics and occasionally, metaphysics, existential philosophy, and freudian psychoanalysis. 
 ```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
