@@ -1,6 +1,6 @@
  ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 
-```sh
+```haskell
 rubesh
 
 Engineering Undergrad @ [NUS](https://nus.edu.sg)
