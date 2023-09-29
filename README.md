@@ -1,7 +1,7 @@
  ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 
 ```haskell
-rubesh
+rubesh s.
 
 Engineering Undergrad @ [NUS](https://nus.edu.sg)
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
