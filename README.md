@@ -1,9 +1,9 @@
  ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 
-```haskell
+```sh
 rubesh s.
 
-Engineering Undergrad @ the National University of Singapore
+Engineering Undergrad @ the National University of Singapore.
 
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
@@ -14,7 +14,7 @@ automation systems, shell/apple scripting and unix/unix-like sysadmin stuff.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
 quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
-and constitutional law.
+and constitutional law. Stay tuned.
 
 I'm new to GitHub so I'm currently in the midst of uploading and archiving some of my old (and current)
 works and projects here. 
