@@ -14,6 +14,9 @@ automation systems, shell/apple scripting and unix/unix-like sysadmin stuff.
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
 quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
 and constitutional law.
+
+I'm new to GitHub so I'm currently in the midst of uploading and archiving some of my old (and current)
+works and projects here. 
 ```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
