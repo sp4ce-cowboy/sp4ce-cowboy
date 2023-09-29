@@ -3,7 +3,8 @@
 ```haskell
 rubesh s.
 
-Engineering Undergrad @ [NUS](https://nus.edu.sg)
+Engineering Undergrad @ the National University of Singapore
+
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
 
