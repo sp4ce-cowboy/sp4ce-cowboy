@@ -13,7 +13,7 @@ automation systems, shell/apple scripting and unix/unix-like sysadmin stuff.
 
 Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
 quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
-and constitutional law. Stay tuned.
+and constitutional law.
 
 Currently in the midst of uploading and archiving some of my old (and current) works and projects here,
 more stuff on the way.
