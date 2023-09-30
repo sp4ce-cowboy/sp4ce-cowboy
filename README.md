@@ -11,7 +11,7 @@ Mostly interested in appleOS platform-native app development, operating systems 
 computer/software security, cyber-security architecture, embedded programming, machine learning,
 automation systems, shell/apple scripting and unix/unix-like sysadmin stuff.
 
-Also interested in engineering design & modelling, finite element analysis, computational fluid dynamics,
+Also interested in engineering design & modelling, finite element analysis, system dynamics modelling,
 quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
 and constitutional law.
 
