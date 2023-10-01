@@ -1,7 +1,7 @@
  ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 
 ```sh
-rubesh s.
+rubesh
 
 Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
