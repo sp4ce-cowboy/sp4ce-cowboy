@@ -9,7 +9,7 @@ Intending to specialize in Robotics (Engineering side) && Artifical Intelligence
 
 Mostly interested in appleOS platform-native app development, operating systems engineering,
 computer/software security, cyber-security architecture, embedded programming, machine learning,
-automation systems, shell/apple scripting and unix/unix-like sysadmin stuff.
+automation systems, shell/apple scripting and *nix sysadmin stuff.
 
 Also interested in computer-aided engineering design, finite element analysis, system dynamics modelling,
 quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
