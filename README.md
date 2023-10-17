@@ -5,18 +5,15 @@ rubesh
 
 Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
-Intending to specialize in Robotics (Engineering side) && Artifical Intelligence (Computing side).
+Intending to specialize in Robotics Engineering && Artifical Intelligence.
 
-Mostly interested in appleOS platform-native app development, operating systems engineering,
-computer/software security, cyber-security architecture, embedded programming, machine learning,
-automation systems, shell/apple scripting and *nix sysadmin stuff.
+Mostly interested in appleOS platform-native app development, UI/UX, operating systems engineering,
+embedded programming, computer security, automation systems and Unix sysadmin stuff.
 
 Also interested in computer-aided engineering design, finite element analysis, system dynamics modelling,
-quantum mechanics, spacecraft dynamics and control, astrophysics and occasionally, existential philosophy
-and constitutional law.
+quantum mechanics, astrophysics and occasionally, existential philosophy and constitutional law.
 
-Currently in the midst of uploading and archiving some of my old (and current) works and projects here,
-more stuff on the way.
+Currently in the midst of uploading and archiving some of my old (and current) works and projects.
 ```
 <img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" alt="sp4ce-cowboy" /> <img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight&layout=compact" alt="sp4ce-cowboy" /> 
 
