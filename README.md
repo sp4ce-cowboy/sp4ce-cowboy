@@ -16,10 +16,10 @@ quantum mechanics, astrophysics and occasionally, existential philosophy and con
 Currently in the midst of uploading and archiving some of my old (and current) works and projects.
 ```
 <a href="https://github.com/sp4ce-cowboy">
-  <img height="175" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" />
+  <img height="178" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=tokyonight" />
 </a>
 <a href="https://wakatime.com/@space_cowboy">
-  <img height="175" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=tokyonight" />
+  <img height="178" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=tokyonight" />
 </a>
 
 
