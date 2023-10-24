@@ -8,7 +8,7 @@ Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics Engineering && Artifical Intelligence.
 
 Mostly interested in appleOS platform-native app development, UI/UX, operating systems engineering,
-embedded programming, computer security, automation systems and Unix sysadmin stuff.
+embedded programming, computer security, automation systems and anything Unix.
 
 Also interested in computer-aided engineering design, finite element analysis, system dynamics modelling,
 quantum mechanics, astrophysics and occasionally, existential philosophy and constitutional law.
