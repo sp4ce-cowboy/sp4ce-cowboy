@@ -1,5 +1,5 @@
  ### [whoami](https://en.wikipedia.org/wiki/Whoami)
-
+ [![wakatime](https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg)](https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59)
 ```sh
 rubesh
 
