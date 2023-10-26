@@ -12,8 +12,6 @@ embedded programming, computer security, automation systems and anything Unix.
 
 Also interested in computer-aided engineering design, finite element analysis, system dynamics modelling,
 quantum mechanics, astrophysics and occasionally, existential philosophy and constitutional law.
-
-Currently in the midst of uploading and archiving some of my old (and current) works and projects.
 ```
 <a href="https://github.com/sp4ce-cowboy">
   <img height="187" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=dracula" />
