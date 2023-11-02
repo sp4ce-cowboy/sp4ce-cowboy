@@ -1,5 +1,5 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami)
-[![wakatime](https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg)](https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59)    [![CS2103](https://nus-cs2103-ay2324s1.github.io/tp-dashboard/#/widget/?search=&sort=totalCommits%20dsc&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=true&checkedFileTypes=docs~functional-code~test-code&since=2023-09-22&chartGroupIndex=7)](https://nus-cs2103-ay2324s1.github.io/tp-dashboard/#/widget/?search=&sort=totalCommits%20dsc&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=true&checkedFileTypes=docs~functional-code~test-code&since=2023-09-22&chartGroupIndex=7)
+[![wakatime](https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg)](https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59)
 
  
 ```sh
