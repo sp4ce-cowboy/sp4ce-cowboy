@@ -3,8 +3,6 @@
 
  
 ```sh
-rubesh
-
 Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics Engineering && Artifical Intelligence.
