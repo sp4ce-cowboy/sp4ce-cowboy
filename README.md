@@ -19,7 +19,7 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Python 3-black?logo=python&logoColor=yellow" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/C17-black?logo=C" height="25" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Bash (Unix Shell)-black?logo=GNU bash" height="25" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Shell-black?logo=GNU bash" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/R-black?logo=r" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/HTML-black?logo=html5" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/CSS-black?logo=css3" height="25" />
@@ -65,11 +65,11 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Engineering-white?style=for-the-badge" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/SolidWorks-black?logo=dassaultsystemes&logoColor=005386" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Fusion360-black?logo=autodesk" height="25" />
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Logisim-black?logo=multisim" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Arduino-black?logo=arduino&logoColor=00878F" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Embedded C++-black?logo=cplusplus" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Raspberry Pi-black?logo=raspberrypi&logoColor=A22846" height="25" />
+<!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="25" /> -->
 
 
 
