@@ -1,7 +1,6 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami) <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy?type=Java, Markdown"> -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
 
-
 ```sh
 Sophomore Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
