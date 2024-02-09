@@ -7,7 +7,7 @@
 <!-- <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> -->
 
 ```sh
-Engineering Undergrad @ the National University of Singapore.
+Sophomore Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics Engineering && Artifical Intelligence.
 ```
