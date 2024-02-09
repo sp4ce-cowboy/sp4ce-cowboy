@@ -28,7 +28,7 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 </a>
 
 
-### some projects
+### recent projects
 <a href="https://github.com/sp4ce-cowboy/cruel-maps">
   <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=cruel-maps&theme=transparent&description_lines_count=2" />
 </a>
