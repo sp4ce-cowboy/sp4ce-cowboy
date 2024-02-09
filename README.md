@@ -1,12 +1,13 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
-<!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Languages-black?style=for-the-badge" height="25" /></a> -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=red" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Python-black?logo=python" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/C17-black?logo=C" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Bash-black?logo=GNU bash" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript" height="25" />
+
+<!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Languages-black?style=for-the-badge" height="25" /></a> -->
 
 <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy?type=Java, Markdown"> -->
 <!-- <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> <img height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /> -->
