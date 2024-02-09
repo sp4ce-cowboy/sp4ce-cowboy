@@ -18,10 +18,10 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/AppleScript-black?logo=apple" height="25" /></a>
 
 <a href="https://github.com/sp4ce-cowboy">
-  <img height="210" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=transparent&hide=stars&show=reviews,prs_merged,prs_merged_percentage" />
+  <img height="240" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&show_icons=true&locale=en&theme=transparent&hide=stars&show=reviews,prs_merged,prs_merged_percentage" />
 </a>
 <a href="https://wakatime.com/@space_cowboy">
-  <img height="210" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&show=java,swift" />
+  <img height="240" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&show=java,swift" />
 </a>
 
 
