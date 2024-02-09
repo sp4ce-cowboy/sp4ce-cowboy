@@ -58,13 +58,14 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Shortcuts (Workflow)-black?logo=apple" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Notion (DB)-black?logo=notion" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Excel-black?logo=microsoftexcel&logoColor=217346" height="25" />
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="25" />
+
 
 
 <!-- Engineering -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Engineering-white?style=for-the-badge" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/SolidWorks-black?logo=dassaultsystemes&logoColor=005386" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Fusion360-black?logo=autodesk" height="25" />
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Logisim-black?logo=multisim" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Arduino-black?logo=arduino&logoColor=00878F" height="25" />
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Embedded C++-black?logo=cplusplus" height="25" /></a>
