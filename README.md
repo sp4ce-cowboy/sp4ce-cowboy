@@ -1,6 +1,5 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami)
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
-
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=red" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="25" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/Python-black?logo=python&logoColor=yellow" height="25" /></a>
@@ -31,10 +30,10 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 
 ### some projects
 <a href="https://github.com/sp4ce-cowboy/autonomous-robot">
-  <img height="135" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=autonomous-robot&theme=transparent&description_lines_count=2" />
+  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=autonomous-robot&theme=transparent&description_lines_count=2" />
 </a>
 <a href="https://github.com/sp4ce-cowboy/artificial-consciousness">
-  <img height="135" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
+  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
 </a>
 
 
