@@ -1,23 +1,24 @@
-### [whoami](https://en.wikipedia.org/wiki/Whoami) <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy?type=Java, Markdown"> -->
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
+### [whoami](https://en.wikipedia.org/wiki/Whoami) <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img align="right" align="center" src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
 ```sh
-Sophomore Engineering Undergrad @ the National University of Singapore.
+Hello! I'm Rubesh
+
+I'm a Sophomore Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics Engineering && Artifical Intelligence.
 ```
 ### tech stack
 <!-- Languages -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Languages-white?style=for-the-badge" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=F80000" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Python 3-black?logo=python&logoColor=yellow" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/C17-black?logo=C" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Shell-black?logo=GNU bash" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/R-black?logo=r" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/HTML-black?logo=html5" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/CSS-black?logo=css3" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/JavaScript-black?logo=javascript" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
+<a href="https://github.com/sp4ce-cowboy/tp/tree/master"> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=F80000" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Python 3-black?logo=python&logoColor=yellow" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/C17-black?logo=C" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Shell-black?logo=GNU bash" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/R-black?logo=r" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/HTML-black?logo=html5" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/CSS-black?logo=css3" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/JavaScript-black?logo=javascript" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
 
 <!-- Frameworks and Libraries -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Frameworks-white?style=for-the-badge" height="23" /></a>
@@ -79,9 +80,10 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 </a>
 
 
-### recent work
+### recent activity 
+<a href="https://wakatime.com/@space_cowboy"> <img align="center"  src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
 
-<img width="820" src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
+<img width="820" align="center"  src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
 
 
 ### recent projects
@@ -92,7 +94,7 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
   <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
 </a>
 
-
+<!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy"> -->
 <!-- <a>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sp4ce-cowboy&theme=transparent&layout=compact" />
 </a> -->
