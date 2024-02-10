@@ -71,12 +71,18 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 
 
 ### some stats
-<a href="https://github.com/sp4ce-cowboy"> <img height="160" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&include_all_commits=true&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=stars,contribs&show=reviews,prs_merged,prs_merged_percentage" />
-</a> <a href="https://wakatime.com/@space_cowboy"> <img height="160" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" /> </a>
+<a href="https://github.com/sp4ce-cowboy">
+    <img height="160" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&include_all_commits=true&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=stars,contribs&show=reviews,prs_merged,prs_merged_percentage" />
+</a> 
+<a href="https://wakatime.com/@space_cowboy"> 
+  <img height="160" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" />
+</a>
+
 
 ### recent work
 
 <img width="820" src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
+
 
 ### recent projects
 <a href="https://github.com/sp4ce-cowboy/cruel-maps">
