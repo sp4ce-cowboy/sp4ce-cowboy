@@ -70,6 +70,10 @@ Specializing in Robotics && Software Engineering
 -->
 
 
+### recent activity 
+<a href="https://wakatime.com/@space_cowboy"> <img align="center"  src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
+
+<img width="820" align="center"  src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
 
 
 ### some stats
@@ -81,18 +85,12 @@ Specializing in Robotics && Software Engineering
 </a>
 
 
-### recent activity 
-<a href="https://wakatime.com/@space_cowboy"> <img align="center"  src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
-
-<img width="820" align="center"  src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
-
-
 ### recent projects
 <a href="https://github.com/sp4ce-cowboy/cruel-maps">
-  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=cruel-maps&theme=transparent&description_lines_count=2" />
+  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=cruel-maps&theme=transparent&description_lines_count=2" />
 </a>
 <a href="https://github.com/sp4ce-cowboy/artificial-consciousness">
-  <img height="140" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
+  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
 </a>
 
 <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy"> -->
