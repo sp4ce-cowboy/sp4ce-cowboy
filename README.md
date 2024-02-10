@@ -4,7 +4,7 @@ Hello! I'm Rubesh
 
 I'm a Sophomore Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
-Intending to specialize in Robotics Engineering && Artifical Intelligence.
+Specializing in Robotics && Software Engineering
 ```
 ### tech stack
 <!-- Languages -->
@@ -58,7 +58,6 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Excel (VBA)-black?logo=microsoftexcel&logoColor=217346" height="23" /></a>
 
 
-
 <!-- Engineering -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Engineering-white?style=for-the-badge" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/SolidWorks-black?logo=dassaultsystemes&logoColor=005386" height="23" /></a>
@@ -67,6 +66,7 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Arduino (Embedded C++)-black?logo=arduino&logoColor=00878F" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Raspberry Pi-black?logo=raspberrypi&logoColor=A22846" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="23" />
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/ROS2-black?logo=ros&logoColor=22314E" height="23" />
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Embedded C++-black?logo=cplusplus" height="23" /></a> -->
 
 
