@@ -1,4 +1,4 @@
-### [whoami](https://en.wikipedia.org/wiki/Whoami) <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img align="right" align="center" src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
+### [whoami](https://en.wikipedia.org/wiki/Whoami) <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img align="right" align="center" src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a> -->
 ```sh
 Hello! I'm Rubesh
 
