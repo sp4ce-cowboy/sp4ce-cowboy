@@ -1,12 +1,10 @@
 ### [whoami](https://en.wikipedia.org/wiki/Whoami) <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy?type=Java, Markdown"> -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
-
 ```sh
 Sophomore Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Intending to specialize in Robotics Engineering && Artifical Intelligence.
 ```
-
 ### tech stack
 <!-- Languages -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Languages-white?style=for-the-badge" height="23" /></a>
@@ -72,17 +70,13 @@ Intending to specialize in Robotics Engineering && Artifical Intelligence.
 
 
 
-
-
-
-
 ### some stats
-<a href="https://github.com/sp4ce-cowboy">
-  <img height="160" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&include_all_commits=true&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=stars,contribs&show=reviews,prs_merged,prs_merged_percentage" />
-</a>
-<a href="https://wakatime.com/@space_cowboy">
-  <img height="160" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" />
-</a>
+<a href="https://github.com/sp4ce-cowboy"> <img height="160" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&include_all_commits=true&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=stars,contribs&show=reviews,prs_merged,prs_merged_percentage" />
+</a> <a href="https://wakatime.com/@space_cowboy"> <img height="160" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" /> </a>
+
+
+
+<img width="820" src="https://wakatime.com/share/@space_cowboy/f74b775a-c7f5-4545-804b-5bb18f2dcd58.svg" />
 
 
 ### recent projects
