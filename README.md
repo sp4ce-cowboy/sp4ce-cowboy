@@ -43,7 +43,7 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Expo-black?logo=expo" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Codecov-black?logo=codecov" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Gradle-black?logo=gradle&logoColor=02303A" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Javadoc-black?logo=openJDK" height="23" /></a>
+<a href="https://sp4ce-cowboy.github.io/discrete-event-simulator/"> <img src="https://img.shields.io/badge/Javadoc-black?logo=openJDK" height="23" /></a>
 
 
 <!-- Utilities -->
