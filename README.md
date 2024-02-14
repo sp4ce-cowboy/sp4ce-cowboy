@@ -51,7 +51,7 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Vim-black?logo=vim&logoColor=019733" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/IntelliJ-black?logo=intellijidea" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Xcode-black?logo=xcode" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Alfred 5-black?logo=alfred&logoColor=5C1F87" height="23" /></a>
+<a href="https://github.com/sp4ce-cowboy/showtime/tree/main"> <img src="https://img.shields.io/badge/Alfred 5-black?logo=alfred&logoColor=5C1F87" height="23" /></a>
 <a href="https://routinehub.co"> <img src="https://img.shields.io/badge/Shortcuts-black?logo=apple" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/IFTTT-black?logo=ifttt" height="23" /></a>
 <a href="https://medium.com/@engageintellect/building-a-next-js-application-with-notion-as-a-backend-1a3570d8dca6"> <img src="https://img.shields.io/badge/Notion (DB)-black?logo=notion" height="23" /></a>
