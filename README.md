@@ -9,7 +9,7 @@ Specializing in Robotics && Software Engineering.
 ### tech stack
 <!-- Languages -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Languages-white?style=for-the-badge" height="23" /></a>
-<a href="https://github.com/sp4ce-cowboy/tp/tree/master"> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=F80000" height="23" /></a>
+<a href="https://github.com/sp4ce-cowboy/tp"> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=F80000" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Python 3-black?logo=python&logoColor=yellow" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/C17-black?logo=C" height="23" /></a>
