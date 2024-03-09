@@ -13,12 +13,12 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Swift-black?logo=swift&logoColor=#F05138" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Python 3-black?logo=python&logoColor=yellow" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/C17-black?logo=C" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/ObjectiveC-black?logo=cocoapods" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Shell-black?logo=GNU bash" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/R-black?logo=r" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/HTML-black?logo=html5" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/CSS-black?logo=css3" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/JavaScript-black?logo=javascript" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
 
 <!-- Frameworks and Libraries -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Frameworks-white?style=for-the-badge" height="23" /></a>
@@ -55,7 +55,8 @@ Specializing in Robotics && Software Engineering.
 <a href="https://routinehub.co"> <img src="https://img.shields.io/badge/Shortcuts-black?logo=apple" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/IFTTT-black?logo=ifttt" height="23" /></a>
 <a href="https://medium.com/@engageintellect/building-a-next-js-application-with-notion-as-a-backend-1a3570d8dca6"> <img src="https://img.shields.io/badge/Notion (DB)-black?logo=notion" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Excel (VBA)-black?logo=microsoftexcel&logoColor=217346" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
+<!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Excel (VBA)-black?logo=microsoftexcel&logoColor=217346" height="23" /></a> -->
 
 
 <!-- Engineering -->
