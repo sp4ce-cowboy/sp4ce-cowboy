@@ -28,7 +28,6 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/JavaFX-black?&logo=oracle&logoColor=blue" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/React Native-black?logo=react" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Expo-black?logo=expo" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/JUnit5-black?&logo=junit5&logoColor=orange" height="23" /></a> -->
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/PyTorch-black?logo=pytorch" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/NumPy-black?logo=numpy&logoColor=013243" height="23" /></a>
@@ -39,14 +38,16 @@ Specializing in Robotics && Software Engineering.
 <!-- Tools -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Tools-white?style=for-the-badge" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Git-black?logo=git&logoColor=F05032" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/AppleScript-black?logo=apple" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Vim-black?logo=vim&logoColor=019733" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Xcode-black?logo=xcode" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/IntelliJ-black?logo=intellijidea" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/RStudio-black?logo=rstudio&logoColor=75AADB" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Codecov-black?logo=codecov" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Gradle-black?logo=gradle&logoColor=02303A" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Vim-black?logo=vim&logoColor=019733" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/IntelliJ-black?logo=intellijidea" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Xcode-black?logo=xcode" height="23" /></a>
-<!-- <a href="https://github.com/sp4ce-cowboy/showtime/tree/main"> <img src="https://img.shields.io/badge/Alfred 5-black?logo=alfred&logoColor=5C1F87" height="23" /></a> -->
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
+
+<!-- <a href="https://github.com/sp4ce-cowboy/showtime/tree/main"> <img src="https://img.shields.io/badge/Alfred 5-black?logo=alfred&logoColor=5C1F87" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/AppleScript-black?logo=apple" height="23" /></a> -->
 <!-- <a href="https://sp4ce-cowboy.github.io/discrete-event-simulator/"> <img src="https://img.shields.io/badge/Javadoc-black?logo=openJDK" height="23" /></a> -->
 <!-- <a href="https://github.com/sp4ce-cowboy/tp/tree/master/docs/diagrams"> <img src="https://img.shields.io/badge/PlantUML-black?logo=uml" height="23" /></a> -->
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Jupyter-black?logo=jupyter&logoColor=F37626" height="23" /></a> -->
@@ -67,7 +68,7 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Logisim-black?logo=multisim" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Arduino-black?logo=arduino&logoColor=00878F" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/MATLAB-black?logo=matrix" height="23" />
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/ROS2-black?logo=ros&logoColor=22314E" height="23" />
+<!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"/> <img src="https://img.shields.io/badge/ROS2-black?logo=ros&logoColor=22314E" height="23" /> -->
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Embedded C++-black?logo=cplusplus" height="23" /></a> <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Raspberry Pi-black?logo=raspberrypi&logoColor=A22846" height="23" /></a>
 -->
 
