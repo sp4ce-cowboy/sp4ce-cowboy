@@ -2,7 +2,7 @@
 ```sh
 Hello! I'm Rubesh
 
-I'm a Sophomore Engineering Undergrad @ the National University of Singapore.
+I'm a Junior Engineering Undergrad @ the National University of Singapore.
 Currently pursuing a double major in Mechanical Engineering && Computer Science.
 Specializing in Robotics && Software Engineering.
 ```
