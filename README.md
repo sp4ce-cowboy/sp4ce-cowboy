@@ -99,8 +99,8 @@ Specializing in Robotics && Software Engineering.
 
 
 ### recent projects
-<a href="https://github.com/sp4ce-cowboy/cruel-maps">
-  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=cruel-maps&theme=transparent&description_lines_count=2" />
+<a href="https://github.com/sp4ce-cowboy/TowerForge">
+  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=TowerForge&theme=transparent&description_lines_count=2" />
 </a>
 <a href="https://github.com/sp4ce-cowboy/artificial-consciousness">
   <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
