@@ -91,10 +91,10 @@ Specializing in Robotics && Software Engineering.
 
 ### some stats
 <a href="https://github.com/sp4ce-cowboy">
-    <img height="160" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=contribs&show=reviews,prs_merged,prs_merged_percentage" />
+    <img height="170" align="center" src="https://github-readme-stats.vercel.app/api?username=sp4ce-cowboy&rank_icon=percentile&show_icons=true&locale=en&theme=transparent&hide_title=true&hide=contribs&show=reviews,prs_merged,prs_merged_percentage" />
 </a> 
 <a href="https://wakatime.com/@space_cowboy"> 
-  <img height="160" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" />
+  <img height="170" align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=space_cowboy&layout=compact&theme=transparent&hide_title=true&langs_count=10&hide=other" />
 </a>
 
 
