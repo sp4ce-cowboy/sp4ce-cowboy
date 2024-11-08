@@ -13,11 +13,13 @@ Specializing in Robotics && Software Engineering.
 <a href="https://github.com/sp4ce-cowboy/tp"> <img src="https://img.shields.io/badge/Java-black?&logo=oracle&logoColor=F80000" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Python-black?logo=python&logoColor=yellow" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/C-black?logo=C" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/C++-black?logo=Cplusplus" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Obj_C-black?logo=cocoapods" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/Shell-black?logo=GNU bash" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/HTML-black?logo=html5" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/CSS-black?logo=css3" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/JavaScript-black?logo=javascript" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/JS-black?logo=javascript" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/TS-black?logo=typescript" height="23" /></a>
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/R-black?logo=r" height="23" /></a> -->
 
 <!-- Frameworks and Libraries -->
@@ -27,8 +29,10 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/UIKit-black?logo=uikit" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/JavaFX-black?&logo=oracle&logoColor=blue" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/JUnit5-black?&logo=junit5&logoColor=orange" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/React Native-black?logo=react" height="23" /></a>
-<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Expo-black?logo=expo" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Express-black?logo=express" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Vite-black?logo=vite" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/React/Native-black?logo=react" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Three.js-black?logo=threedotjs" height="23" /></a>
 
 <!-- <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/PyTorch-black?logo=pytorch" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/NumPy-black?logo=numpy&logoColor=013243" height="23" /></a>
@@ -45,6 +49,8 @@ Specializing in Robotics && Software Engineering.
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/RStudio-black?logo=rstudio&logoColor=75AADB" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Codecov-black?logo=codecov" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Gradle-black?logo=gradle&logoColor=02303A" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/MongoDB-black?logo=mongodb&logoColor=02303A" height="23" /></a>
+<a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Redis-black?logo=redis&logoColor=02303A" height="23" /></a>
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img  src="https://img.shields.io/badge/LaTeX-black?logo=latex&logoColor=008080" height="23" /></a>
 
 <!-- <a href="https://github.com/sp4ce-cowboy/showtime/tree/main"> <img src="https://img.shields.io/badge/Alfred 5-black?logo=alfred&logoColor=5C1F87" height="23" /></a>
