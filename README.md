@@ -80,11 +80,10 @@ Specializing in Robotics && Software Engineering.
 
 ### recent activity 
 <a href="https://wakatime.com/@space_cowboy"> <img align="center"  src="https://wakatime.com/badge/user/7d93b53f-57a1-4e40-bd51-06458b6e8d59.svg" height="25" /></a>
-<a href="https://wakatime.com/@space_cowboy"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24.data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.running_total.human_readable_total&style=flat&logo=wakatime&label=this%20week%20" height="25" /></a>
-<a href="https://wakatime.com/@space_cowboy"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24.data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.running_total.human_readable_daily_average&style=flat&logo=wakatime&label=daily%20average" height="25" /></a>
-<a href="https://wakatime.com/leaders?country_code=SG"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24..data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.rank&logo=wakatime&label=SG%20Rank" height="25" /></a>
 
-<!-- <a href="https://wakatime.com/leaders"> $.data[?(@.user.display_name == "Rubesh")].rank <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders&query=%24.data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.rank&style=flat&logo=wakatime&label=rank" height="25" /></a> -->
+<!-- <a href="https://wakatime.com/@space_cowboy"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24.data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.running_total.human_readable_total&style=flat&logo=wakatime&label=this%20week%20" height="25" /></a>
+<a href="https://wakatime.com/@space_cowboy"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24.data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.running_total.daily_average&style=flat&logo=wakatime&label=daily%20average" height="25" /></a>
+<a href="https://wakatime.com/leaders?country_code=SG"> <img align="center" align="right"  src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwakatime.com%2Fapi%2Fv1%2Fleaders%3Fcountry_code%3DSG&query=%24..data%5B%3F(%40.user.display_name%20%3D%3D%20%22Rubesh%22)%5D.rank&logo=wakatime&label=SG%20Rank" height="25" /></a> -->
 
 
 
