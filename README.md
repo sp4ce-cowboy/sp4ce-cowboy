@@ -118,3 +118,15 @@ Specializing in Robotics && Software Engineering.
 
 <!-- https://devicon.dev -->
 <!-- badges made from https://shields.io/badges -->
+
+
+### project pages (temporary)
+<!-- Temporary quick links while the profile is being rebuilt (Nov 2026). -->
+- [makaber](https://github.com/sp4ce-cowboy/makaber) (private for now)
+- [course-expiry](https://github.com/sp4ce-cowboy/course-expiry) (private for now)
+- [smart-digital-junction](https://github.com/sp4ce-cowboy/smart-digital-junction)
+- [natural-query-language](https://github.com/sp4ce-cowboy/natural-query-language)
+- [nus-wayang-kulit](https://github.com/sp4ce-cowboy/nus-wayang-kulit)
+- [SpacePeggle](https://github.com/sp4ce-cowboy/SpacePeggle)
+- [TowerForge](https://github.com/sp4ce-cowboy/TowerForge)
+- [AddamNet](https://github.com/sp4ce-cowboy/AddamNet)
