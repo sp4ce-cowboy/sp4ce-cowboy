@@ -2,10 +2,47 @@
 ```sh
 Hello! I'm Rubesh
 
-I'm an Engineering Graduate from the National University of Singapore.
-Currently pursuing a double major in Mechanical Engineering && Computer Science.
-Specializing in Robotics && Software Engineering.
+iOS engineer: Swift, SwiftUI, UIKit, SpriteKit.
+B.Eng (Mechanical Engineering) with a Second Major in Computer Science, National University of Singapore, 2026.
+Robotics && software engineering. Based in Singapore.
 ```
+[rubesh.dev](https://rubesh.dev)
+### projects
+
+**iOS apps** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aios-app)
+- [SpacePeggle](https://github.com/sp4ce-cowboy/SpacePeggle): a native iPad physics game built from scratch in Swift and SwiftUI, with a custom physics engine and level editor
+- [TowerForge](https://github.com/sp4ce-cowboy/TowerForge): a real-time multiplayer iPad tower-defence game in Swift, SpriteKit and Firebase; 3rd prize, STePS 2024
+
+**Work** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Awork-experience)
+- [makaber](https://github.com/sp4ce-cowboy/makaber): Nexudus ↔ dormakaba access-control integration in Python and FastAPI (UnternehmerTUM MakerSpace)
+- [course-expiry](https://github.com/sp4ce-cowboy/course-expiry): machine-permission automation (UnternehmerTUM MakerSpace)
+- [smart-digital-junction](https://github.com/sp4ce-cowboy/smart-digital-junction): edge-AI traffic monitoring on Raspberry Pi 5 and Hailo-8 (ST Engineering)
+- [natural-query-language](https://github.com/sp4ce-cowboy/natural-query-language): an LLM text-to-SQL prototype (ST Engineering)
+
+**Research and dissertation** · [research](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aresearch) · [dissertation](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Adissertation)
+- [AddamNet](https://github.com/sp4ce-cowboy/AddamNet): autonomous defect detection and mapping in pipeline networks; B.Eng dissertation, grade A
+- [nus-wayang-kulit](https://github.com/sp4ce-cowboy/nus-wayang-kulit): an interactive 3D shadow puppet in the browser (NUS CSSH)
+
+**Software engineering**
+- [PeerPrep](https://github.com/sp4ce-cowboy/PeerPrep): a collaborative coding-interview platform with microservices and a shared Yjs editor
+- [UniCa$h](https://github.com/sp4ce-cowboy/tp): a finance tracker in Java and JavaFX (team project)
+- [ChatterBox](https://github.com/sp4ce-cowboy/ip): a keyboard-first task manager in Java and JavaFX
+- [discrete-event-simulator](https://github.com/sp4ce-cowboy/discrete-event-simulator): a purely immutable shop simulation in Java, with hosted Javadocs
+- [artificial-consciousness](https://github.com/sp4ce-cowboy/artificial-consciousness): Bash chatbots that rewrite their own code; Tembusu College Best Work Prize
+
+**Robotics and hardware**
+- [robotic-system-design](https://github.com/sp4ce-cowboy/robotic-system-design): a ROS 2 navigation stack in C++ (A\* planner, pure-pursuit controller)
+- [autonomous-robot](https://github.com/sp4ce-cowboy/autonomous-robot): an Arduino obstacle-course robot with a ball-delivery arm
+- [OceanX](https://github.com/sp4ce-cowboy/OceanX): a low-cost underwater ROV for water-quality monitoring; Bronze, A\*STAR Science Fair 2016
+
+**Hackathons** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Ahackathon)
+- [wanderminds](https://github.com/sp4ce-cowboy/wanderminds): an AI travel companion app (TUM.ai Makeathon 2025)
+- [cruel-maps](https://github.com/sp4ce-cowboy/cruel-maps): a maps app that routes you past haunted places (Hack&Roll 2024)
+- [AquAlarm](https://github.com/sp4ce-cowboy/AquAlarm): an alarm clock that sprays water (Hack&Roll 2019)
+- [medibit](https://github.com/sp4ce-cowboy/medibit): a micro:bit pill dispenser (InnoBit Challenge 2019, top 10)
+
+Every project page: [portfolio](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aportfolio)
+
 ### tech stack
 <!-- Languages -->
 <a href="https://wakatime.com/@7d93b53f-57a1-4e40-bd51-06458b6e8d59"> <img src="https://img.shields.io/badge/Languages-white?style=for-the-badge" height="23" /></a>
@@ -102,14 +139,6 @@ Specializing in Robotics && Software Engineering.
 </a>
 
 
-### recent projects
-<a href="https://github.com/sp4ce-cowboy/TowerForge">
-  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=TowerForge&theme=transparent&description_lines_count=2" />
-</a>
-<a href="https://github.com/sp4ce-cowboy/artificial-consciousness">
-  <img height="145" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sp4ce-cowboy&repo=artificial-consciousness&theme=transparent&description_lines_count=2" />
-</a>
-
 <!-- <img src="https://tokei.rs/b1/github/sp4ce-cowboy/sp4ce-cowboy"> -->
 <!-- <a>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sp4ce-cowboy&theme=transparent&layout=compact" />
@@ -118,15 +147,3 @@ Specializing in Robotics && Software Engineering.
 
 <!-- https://devicon.dev -->
 <!-- badges made from https://shields.io/badges -->
-
-
-### project pages (temporary)
-<!-- Temporary quick links while the profile is being rebuilt (Nov 2026). -->
-- [makaber](https://github.com/sp4ce-cowboy/makaber) (private for now)
-- [course-expiry](https://github.com/sp4ce-cowboy/course-expiry) (private for now)
-- [smart-digital-junction](https://github.com/sp4ce-cowboy/smart-digital-junction)
-- [natural-query-language](https://github.com/sp4ce-cowboy/natural-query-language)
-- [nus-wayang-kulit](https://github.com/sp4ce-cowboy/nus-wayang-kulit)
-- [SpacePeggle](https://github.com/sp4ce-cowboy/SpacePeggle)
-- [TowerForge](https://github.com/sp4ce-cowboy/TowerForge)
-- [AddamNet](https://github.com/sp4ce-cowboy/AddamNet)
