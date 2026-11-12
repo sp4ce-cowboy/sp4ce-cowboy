@@ -6,7 +6,7 @@ iOS engineer: Swift, SwiftUI, UIKit, SpriteKit.
 B.Eng (Mechanical Engineering) with a Second Major in Computer Science, National University of Singapore, 2026.
 Robotics && software engineering. Based in Singapore.
 ```
-[rubesh.dev](https://rubesh.dev)
+[rubesh.dev](https://rubesh.dev) · [LinkedIn](https://www.linkedin.com/in/rubesh-suresh/)
 ### projects
 
 **iOS apps** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aios-app)
@@ -22,6 +22,7 @@ Robotics && software engineering. Based in Singapore.
 **Research and dissertation** · [research](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aresearch) · [dissertation](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Adissertation)
 - [AddamNet](https://github.com/sp4ce-cowboy/AddamNet): autonomous defect detection and mapping in pipeline networks; B.Eng dissertation, grade A
 - [nus-wayang-kulit](https://github.com/sp4ce-cowboy/nus-wayang-kulit): an interactive 3D shadow puppet in the browser (NUS CSSH)
+- [housing-system-dynamics](https://github.com/sp4ce-cowboy/housing-system-dynamics): a system dynamics model of Singapore's housing market in Stella (team project)
 
 **Software engineering**
 - [PeerPrep](https://github.com/sp4ce-cowboy/PeerPrep): a collaborative coding-interview platform with microservices and a shared Yjs editor
