@@ -32,9 +32,13 @@ Plain Markdown: a `sh` code block. Edit it directly in `README.md`.
 | Coding time by editor | WakaTime all-time editors (Codex CLI and its VS Code extension counted as one) | `bars_card()` in `wakatime_cards.py` → `editors-{light,dark}.svg` | every 6 h |
 
 ### tech stack
-An HTML table (no header row) so every list starts at the same place: one row per category, the
-skills as `<a>` links. Each skill links to the code or write-up where it is used (a permalink or an
-`ARCHITECTURE.md` section in one of my repos). Edit the rows directly in `README.md`.
+Plain text aligned with spaces, no table. The list lives in `.github/techstack.txt` (a category on its
+own line, then one indented `Name | link` line per skill; leave out the link for a plain name).
+`techstack.py` writes it into `README.md` between the `tech stack` comments: each label is padded
+with Unicode spaces up to the widest label, using character widths measured in GitHub's font
+(`font-widths.json`, from Chrome on macOS), and long lists wrap onto indented lines at 790 px. Each
+skill links to the code or write-up where it is used. To change it, edit `techstack.txt` and run
+`python3 .github/scripts/techstack.py`.
 
 ### some stats
 | Item | Source | Made by | Refreshed |
@@ -42,8 +46,8 @@ skills as `<a>` links. Each skill links to the code or write-up where it is used
 | Coding time by language (left) | WakaTime all-time languages | `wakatime_cards.py` → `languages-{light,dark}.svg` | every 6 h |
 | Lines of code by language (right) | tokei over the repos in `loc-repos.txt` | `loc_card.py` → `loc-{light,dark}.svg` | daily |
 | Coding calendar | WakaTime daily totals, last 12 months | `wakatime_cards.py` → `calendar-{light,dark}.svg` | every 6 h |
-| GitHub stats with rank: stars, commits, PRs, merged PRs and their share, reviews, issues, discussions started and answered, repos contributed to | GitHub API | [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) → `github-stats-{light,dark}.svg` | daily |
-| Streak | [streak-stats.demolab.com](https://streak-stats.demolab.com) | live | live |
+| GitHub stats with rank: stars, commits, PRs, merged PRs and their share, issues (495 × 220 px) | GitHub API | [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) → `github-stats-{light,dark}.svg` | daily |
+| Streak (`card_height=220`, so it matches the stats card beside it) | [streak-stats.demolab.com](https://streak-stats.demolab.com) | live | live |
 
 **Lines of code:** each repo in `.github/loc-repos.txt` is cloned (latest commit) and
 [tokei](https://github.com/XAMPPRocky/tokei) counts code lines, leaving out blank lines, comments,
@@ -77,6 +81,7 @@ python3 .github/scripts/wakatime_badges.py   # reads ~/.wakatime-token
 python3 .github/scripts/wakatime_cards.py
 python3 .github/scripts/loc_card.py           # needs gh (logged in) and tokei
 python3 .github/scripts/wakatime_gallery.py   # the charts in WAKATIME-PREVIEW.md
+python3 .github/scripts/techstack.py          # the tech stack, from .github/techstack.txt
 ```
 They write to `badges/` (ignored on `main`). To publish by hand, push that folder to the `output`
 branch the way the workflow's last step does.
