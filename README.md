@@ -102,6 +102,9 @@ Robotics && software engineering && systems thinking. Based in Singapore.
 <a href="https://wakatime.com/@space_cowboy"><img src="https://img.shields.io/endpoint?url=https%3A//raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/wakatime-last-7-days.json" height="23" alt="last 7 days" /></a>
 <a href="https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aportfolio"><img src="https://img.shields.io/endpoint?url=https%3A//raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/loc.json" height="23" alt="lines of code" /></a>
 
+<a href="https://wakatime.com/@space_cowboy"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/languages-dark.svg"><img src="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/languages-light.svg" alt="Coding time by language" width="49%"></picture></a>
+<a href="https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aportfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/loc-dark.svg"><img src="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/loc-light.svg" alt="Lines of code by language" width="49%"></picture></a>
+
 <a href="https://wakatime.com/@space_cowboy"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/calendar-dark.svg"><img src="https://raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/main/badges/calendar-light.svg" alt="Coding activity, last 12 months" width="100%"></picture></a>
 
 ### working with AI

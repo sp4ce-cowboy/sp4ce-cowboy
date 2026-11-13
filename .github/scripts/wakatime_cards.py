@@ -40,7 +40,7 @@ def hours(seconds):
     return f"{h:,.0f} h" if h >= 10 else f"{h:.1f} h"
 
 # --- languages donut ------------------------------------------------------------------------
-def languages_card(langs, t, title="Coding time by language", fmt=None, centre="all time"):
+def languages_card(langs, t, title=None, fmt=None, centre="all time"):
     fmt = fmt or hours
     total = sum(s for _, s in langs)
     r, cx, cy, sw = 62, 95, 100, 26
@@ -63,6 +63,8 @@ def languages_card(langs, t, title="Coding time by language", fmt=None, centre="
         parts.append(f'<text x="330" y="{y}" font-size="12.5" text-anchor="end" fill="{t["muted"]}">{fmt(s)}</text>')
         parts.append(f'<text x="385" y="{y}" font-size="12.5" text-anchor="end" fill="{t["muted"]}">{100 * s / total:.0f}%</text>')
         y += 19
+    if not title:                                          # graph only: shift everything up
+        return svg(400, 180, f'<g transform="translate(0,-14)">{"".join(parts)}</g>')
     title = f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">{esc(title)}</text>'
     return svg(400, 200, title + "".join(parts))
 
