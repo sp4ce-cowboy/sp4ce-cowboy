@@ -23,6 +23,7 @@ badges = {
     "last 7 days": short(week["cumulative_total"]["text"]),
     "last 30 days": short(month["cumulative_total"]["text"]),
     "all time": short(get("/all_time_since_today")["text"]),
+    "daily average": short(month["daily_average"]["text"]),
 }
 out = pathlib.Path(__file__).resolve().parents[2] / "badges"
 out.mkdir(exist_ok=True)

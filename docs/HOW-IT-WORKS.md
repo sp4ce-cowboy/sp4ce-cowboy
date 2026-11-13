@@ -31,7 +31,7 @@ is used (a permalink or an `ARCHITECTURE.md` section in one of my repos). Edit t
 ### coding stats
 | Item | Source | Made by | Refreshed |
 |---|---|---|---|
-| Hours badges (all time, last 30 days, last 7 days) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
+| Hours badges (all time, last 30 days, last 7 days, daily average over 30 days) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
 | Coding time by language (left) | WakaTime all-time languages | `wakatime_cards.py` → `languages-{light,dark}.svg` | every 6 h |
 | Lines of code by language (right) | tokei over the repos in `loc-repos.txt` | `loc_card.py` → `loc-{light,dark}.svg` | daily |
 | Coding calendar | WakaTime daily totals, last 12 months | `wakatime_cards.py` → `calendar-{light,dark}.svg` | every 6 h |
@@ -47,6 +47,9 @@ TypeScript and JSX as JavaScript.
 **The charts:** `languages_card()` in `wakatime_cards.py` draws both pies (a donut plus a legend).
 Language colours are in `LANG_COLORS`, the light and dark palettes in `THEMES`. `calendar_card()`
 draws the calendar.
+
+**Caching:** GitHub serves README images through its own cache. After changing how a card looks,
+add or bump a `?v=` on its URL in `README.md` so the new version shows straight away.
 
 ## The workflow
 
