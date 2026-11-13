@@ -34,4 +34,4 @@ PeerPrepUIPrototype
 CS2040
 leetcode
 computer-organisation-private
-operating-systems-private
+operating-systems
