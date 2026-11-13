@@ -1,7 +1,7 @@
 """Write the tech stack section of README.md from .github/techstack.txt, aligned with spaces.
 
 techstack.txt: a category name on its own line, then one indented line per skill: `Name | link`
-(or just `Name`). Every list starts at the same place: each label is padded with Unicode spaces
+(or just `Name`). A blank line starts a new group; groups are separate paragraphs on the page. Every list starts at the same place: each label is padded with Unicode spaces
 (em, en, thin…) up to the widest label, using character widths measured in GitHub's font
 (font-widths.json). Each category stays on one line; the script warns when one is wider than
 MAX_WIDTH px, the width that fits GitHub's README column.
@@ -29,9 +29,10 @@ def pad(px):
     return "".join(e * n for n, (e, _) in zip(best[1], SPACES))
 
 def main():
-    cats = []
+    cats, starts = [], set()                 # starts: indexes of categories that begin a group
     for line in (ROOT / ".github/techstack.txt").read_text().splitlines():
         if not line.strip():
+            starts.add(len(cats))
             continue
         if not line.startswith(" "):
             cats.append((line.strip(), []))
@@ -48,7 +49,10 @@ def main():
             print(f"warning: {label} is {used:.0f} px wide, over {MAX_WIDTH} px; it will wrap on GitHub")
         links = sep.join(f"[{n}]({l})" if l else n for n, l in items)
         blocks.append(f"**{label}**" + pad(column - width(label, "semibold")) + links)
-    section = START + "\n" + "<br>\n".join(blocks) + "\n" + END
+    body = ""
+    for i, block in enumerate(blocks):
+        body += ("\n\n" if i in starts else "<br>\n" if i else "") + block
+    section = START + "\n" + body + "\n" + END
     readme = ROOT / "README.md"
     text = readme.read_text()
     readme.write_text(text[:text.index(START)] + section + text[text.index(END) + len(END):])

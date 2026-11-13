@@ -16,22 +16,7 @@ apple
   SwiftLint | https://github.com/sp4ce-cowboy/SpacePeggle/blob/main/SpacePeggle/.swiftlint.yml
   Xcode | https://github.com/sp4ce-cowboy/TowerForge/blob/main/.github/workflows/ios.yml
   App Store | https://apps.apple.com/app/id6833552919
-backend
-  FastAPI | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#4-layers
-  Pydantic | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#3-domain-model
-  Uvicorn | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#2-system-context
-  Flask | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#12-staff-tooling
-  Node.js | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/server.ts#L38-L44
-  Express | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/server.ts#L38-L44
-  Docker | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/docker-compose.yaml#L38-L41
-data
-  SQL | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#4-data-model
-  PostgreSQL | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#3-system-context
-  SQLite | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#4-data-model
-  MongoDB | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/controllers/questionController.ts#L123-L135
-  Redis | https://github.com/sp4ce-cowboy/PeerPrep/blob/main/ARCHITECTURE.md#5-matching
-  Firebase | https://github.com/sp4ce-cowboy/TowerForge/blob/main/ARCHITECTURE.md#7-storageapi-offline-first-progress
-  pandas | https://github.com/sp4ce-cowboy/dashBoard/blob/36c240ad9e0514e75006f436768333133055316d/main.py#L325-L349
+
 frontend
   React | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/views/MatchingServiceViews/MatchingServiceMainView.tsx#L5-L91
   React Native | https://github.com/sp4ce-cowboy/wanderminds/blob/fab9d975a66c29973dc4231b0daf19e0303a0051/wanderMinds/app/screens/ExplorerScreen.tsx#L173-L224
@@ -41,6 +26,39 @@ frontend
   JavaFX | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/src/main/java/unicash/ui/StatusBarFooter.java#L40-L70
   HTML | https://github.com/sp4ce-cowboy/sp4ce-cowboy.github.io/blob/main/index.html
   CSS | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/frontend/src/styles/App.css
+backend
+  FastAPI | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#4-layers
+  Pydantic | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#3-domain-model
+  Uvicorn | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#2-system-context
+  Flask | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#12-staff-tooling
+  Node.js | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/server.ts#L38-L44
+  Express | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/server.ts#L38-L44
+  Docker | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/docker-compose.yaml#L38-L41
+database
+  SQL | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#4-data-model
+  PostgreSQL | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#3-system-context
+  SQLite | https://github.com/sp4ce-cowboy/course-expiry/blob/main/ARCHITECTURE.md#4-data-model
+  MongoDB | https://github.com/sp4ce-cowboy/PeerPrep/blob/3b54cadfac2e6dd515097c149c4705e9c1cc6734/peerprep/backend/question-service/src/controllers/questionController.ts#L123-L135
+  Redis | https://github.com/sp4ce-cowboy/PeerPrep/blob/main/ARCHITECTURE.md#5-matching
+  Firebase | https://github.com/sp4ce-cowboy/TowerForge/blob/main/ARCHITECTURE.md#7-storageapi-offline-first-progress
+  pandas | https://github.com/sp4ce-cowboy/dashBoard/blob/36c240ad9e0514e75006f436768333133055316d/main.py#L325-L349
+
+testing
+  JUnit5 | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/src/test/java/unicash/testutil/UserInputBuilder.java
+  JaCoCo | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/build.gradle#L6
+  Codecov | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/.github/workflows/gradle.yml#L43
+  Checkstyle | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/build.gradle#L19-L21
+tools
+  Git | https://github.com/sp4ce-cowboy/tp
+  GitHub Actions | https://github.com/sp4ce-cowboy/TowerForge/blob/main/.github/workflows/ios.yml
+  Bash | https://github.com/sp4ce-cowboy/artificial-consciousness/blob/38f65a2b6f05986697fcfbb1662eaf9ca8e649d6/Experimental%20Variants/bv2.0.sh#L183-L345
+  Gradle | https://github.com/sp4ce-cowboy/ip/blob/master/build.gradle
+  IntelliJ IDEA | https://wakatime.com/@space_cowboy
+  Vim | https://github.com/sp4ce-cowboy/discrete-event-simulator#readme
+  LaTeX | https://github.com/sp4ce-cowboy/artificial-consciousness/blob/main/Written%20Articles/Proposal.tex
+  PlantUML | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#12-staff-tooling
+  Javadoc | https://github.com/sp4ce-cowboy/discrete-event-simulator/tree/main/99_FinalProject/javadocs
+
 ai & vision
   OpenCV | https://github.com/sp4ce-cowboy/AddamNet/blob/7c47efae85a2158621a294750ad775ef63fd990b/slam/visual_slam.py#L199-L243
   YOLO | https://github.com/sp4ce-cowboy/AddamNet/blob/main/ARCHITECTURE.md#4-defect-detection-yolov8
@@ -58,18 +76,3 @@ engineering
   MATLAB
   Logisim | https://github.com/sp4ce-cowboy/computer-organisation#circuits-in-logisim
   Stella | https://github.com/sp4ce-cowboy/housing-system-dynamics/tree/main/models
-testing
-  JUnit5 | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/src/test/java/unicash/testutil/UserInputBuilder.java
-  JaCoCo | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/build.gradle#L6
-  Codecov | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/.github/workflows/gradle.yml#L43
-  Checkstyle | https://github.com/sp4ce-cowboy/tp/blob/52513265da923537713fc58a048d7f7741ee3fc6/build.gradle#L19-L21
-tools
-  Git | https://github.com/sp4ce-cowboy/tp
-  GitHub Actions | https://github.com/sp4ce-cowboy/TowerForge/blob/main/.github/workflows/ios.yml
-  Bash | https://github.com/sp4ce-cowboy/artificial-consciousness/blob/38f65a2b6f05986697fcfbb1662eaf9ca8e649d6/Experimental%20Variants/bv2.0.sh#L183-L345
-  Gradle | https://github.com/sp4ce-cowboy/ip/blob/master/build.gradle
-  IntelliJ IDEA | https://wakatime.com/@space_cowboy
-  Vim | https://github.com/sp4ce-cowboy/discrete-event-simulator#readme
-  LaTeX | https://github.com/sp4ce-cowboy/artificial-consciousness/blob/main/Written%20Articles/Proposal.tex
-  PlantUML | https://github.com/sp4ce-cowboy/makaber/blob/main/ARCHITECTURE.md#12-staff-tooling
-  Javadoc | https://github.com/sp4ce-cowboy/discrete-event-simulator/tree/main/99_FinalProject/javadocs
