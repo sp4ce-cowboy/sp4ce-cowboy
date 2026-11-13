@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - if: env.WAKATIME_API_KEY != ''
-        run: python3 .github/scripts/wakatime_badges.py
+        run: python3 .github/scripts/wakatime_badges.py && python3 .github/scripts/wakatime_cards.py
       - if: env.WAKATIME_API_KEY != ''
         run: |
           git config user.name "github-actions[bot]"
