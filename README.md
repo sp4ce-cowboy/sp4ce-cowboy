@@ -5,7 +5,7 @@ hello! i'm rubesh
 i graduated with a bachelor's degree in engineering (honours) from the national university of singapore.
 I did double majors in mechanical engineering and computer science with a specialization in Robotics.
 
-i'm interested in software engineering for apple platforms, and multi-agent architectures.
+i'm interested in software engineering for apple platforms, and multi-agent orchestration.
 i'm currently working on an agentic constitution to facilitate autonomous inter-agent orchestration.
 ```
 ### recent activity
