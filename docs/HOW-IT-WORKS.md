@@ -9,6 +9,7 @@ How each part of [README.md](../README.md) is made and how to change it.
 | `README.md` | The live profile page |
 | `README-ORIGINAL.md`, `README-V2.md`, `README-V3.md` | Earlier versions, kept for reference |
 | `TECHSTACK-PREVIEW.md`, `TECHSTACK-PREVIEW-2.md` | Tech stack layouts that were considered |
+| `WAKATIME-PREVIEW.md` | WakaTime chart options being considered (drawn by `wakatime_gallery.py`, not refreshed by the workflow) |
 | `.github/scripts/` | Scripts that draw the badges and cards |
 | `.github/workflows/profile-cards.yml` | The schedule that runs them |
 | `.github/loc-repos.txt` | Which repos the lines-of-code chart counts |
@@ -69,6 +70,7 @@ to `output` as a single commit. `main` never receives automated commits.
 python3 .github/scripts/wakatime_badges.py   # reads ~/.wakatime-token
 python3 .github/scripts/wakatime_cards.py
 python3 .github/scripts/loc_card.py           # needs gh (logged in) and tokei
+python3 .github/scripts/wakatime_gallery.py   # the charts in WAKATIME-PREVIEW.md
 ```
 They write to `badges/` (ignored on `main`). To publish by hand, push that folder to the `output`
 branch the way the workflow's last step does.
