@@ -10,7 +10,7 @@ Robotics && software engineering. Based in Singapore.
 ### projects
 
 **iOS apps** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Aios-app)
-- [SpacePeggle](https://github.com/sp4ce-cowboy/SpacePeggle): a native iPad physics game built from scratch in Swift and SwiftUI, with a custom physics engine and level editor
+- [SpacePeggle](https://github.com/sp4ce-cowboy/SpacePeggle): a native iPad physics game built from scratch in Swift and SwiftUI, with a custom physics engine and level editor; [on the App Store as Comet Drop](https://apps.apple.com/app/id6833552919)
 - [TowerForge](https://github.com/sp4ce-cowboy/TowerForge): a real-time multiplayer iPad tower-defence game in Swift, SpriteKit and Firebase; 3rd prize, STePS 2024
 
 **Work** · [all](https://github.com/sp4ce-cowboy?tab=repositories&q=topic%3Awork-experience)
