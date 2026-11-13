@@ -97,7 +97,7 @@ def calendar_card(days, t):
     for i in range(5):
         legend += f'<rect x="{width - 122 + i * (cell + gap)}" y="{ly}" width="{cell}" height="{cell}" rx="2" fill="{t["scale"][i]}"/>'
     legend += f'<text x="{width - 48}" y="{ly + 9}" font-size="10" fill="{t["muted"]}">More</text>'
-    return svg(width, ly + 18 - 22, f'<g transform="translate(0,-22)">{"".join(parts)}{legend}</g>')
+    return svg(width, ly + 18 - 12, f'<g transform="translate(0,-12)">{"".join(parts)}{legend}</g>')
 
 def main():
     OUT.mkdir(exist_ok=True)
