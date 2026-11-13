@@ -108,5 +108,4 @@ Robotics && software engineering && systems thinking. Based in Singapore.
 ### github
 <a href="https://github.com/sp4ce-cowboy"><img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sp4ce-cowboy&theme=default" alt="GitHub stats" /></a>
 <a href="https://github.com/sp4ce-cowboy"><img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sp4ce-cowboy&theme=default" alt="Most-committed languages" /></a>
-
-<a href="https://github.com/sp4ce-cowboy"><img width="820" src="https://streak-stats.demolab.com?user=sp4ce-cowboy&theme=default&hide_border=true" alt="GitHub streak" /></a>
+<a href="https://github.com/sp4ce-cowboy"><img height="160" src="https://streak-stats.demolab.com?user=sp4ce-cowboy&theme=default&hide_border=true" alt="GitHub streak" /></a>
