@@ -30,7 +30,6 @@ Plain Markdown: a `sh` code block. Edit it directly in `README.md`.
 | Item | Source | Made by | Refreshed |
 |---|---|---|---|
 | Badges: all time, last 30 days, last 7 days, days coded (days with any coding activity) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
-| Coding time by editor | WakaTime all-time editors (Codex CLI and its VS Code extension counted as one) | `bars_card()` in `wakatime_cards.py` → `editors-{light,dark}.svg` | every 6 h |
 
 ### tech stack
 Plain text aligned with spaces, no table. The list lives in `.github/techstack.txt` (a category on its
@@ -46,7 +45,6 @@ skill links to the code or write-up where it is used. To change it, edit `techst
 |---|---|---|---|
 | Coding time by language (left) | WakaTime all-time languages | `wakatime_cards.py` → `languages-{light,dark}.svg` | every 6 h |
 | Lines of code by language (right) | tokei over the repos in `loc-repos.txt` | `loc_card.py` → `loc-{light,dark}.svg` | daily |
-| Coding calendar | WakaTime daily totals, last 12 months | `wakatime_cards.py` → `calendar-{light,dark}.svg` | every 6 h |
 | GitHub stats with rank: stars, commits, PRs, merged PRs and their share, issues (495 × 220 px) | GitHub API | [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) → `github-stats-{light,dark}.svg` | daily |
 | Streak (`card_height=220`, so it matches the stats card beside it) | [streak-stats.demolab.com](https://streak-stats.demolab.com) | live | live |
 
@@ -57,8 +55,7 @@ folders (`node_modules`, `Pods`, `build`, `dist`, `vendor`, `docs`, `assets`). T
 TypeScript and JSX as JavaScript.
 
 **The charts:** `languages_card()` in `wakatime_cards.py` draws both pies (a donut plus a legend).
-Language colours are in `LANG_COLORS`, the light and dark palettes in `THEMES`. `calendar_card()`
-draws the calendar.
+Language colours are in `LANG_COLORS`, the light and dark palettes in `THEMES`.
 
 **Caching:** GitHub serves README images through its own cache. After changing how a card looks,
 add or bump a `?v=` on its URL in `README.md` so the new version shows straight away.
