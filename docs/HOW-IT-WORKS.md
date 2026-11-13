@@ -25,18 +25,24 @@ and an `<img>` for light mode, so GitHub shows the one that matches the viewer's
 ### whoami
 Plain Markdown: a `sh` code block. Edit it directly in `README.md`.
 
-### tech stack
-One line per category of plain Markdown links. Each skill links to the code or write-up where it
-is used (a permalink or an `ARCHITECTURE.md` section in one of my repos). Edit the lines directly.
-
-### coding stats
+### wakatime
 | Item | Source | Made by | Refreshed |
 |---|---|---|---|
-| Hours badges (all time, last 30 days, last 7 days, daily average over 30 days) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
+| Badges: all time, last 30 days, last 7 days, days coded (days with any coding activity) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
+| Coding time by editor | WakaTime all-time editors (Codex CLI and its VS Code extension counted as one) | `bars_card()` in `wakatime_cards.py` → `editors-{light,dark}.svg` | every 6 h |
+
+### tech stack
+An HTML table (no header row) so every list starts at the same place: one row per category, the
+skills as `<a>` links. Each skill links to the code or write-up where it is used (a permalink or an
+`ARCHITECTURE.md` section in one of my repos). Edit the rows directly in `README.md`.
+
+### some stats
+| Item | Source | Made by | Refreshed |
+|---|---|---|---|
 | Coding time by language (left) | WakaTime all-time languages | `wakatime_cards.py` → `languages-{light,dark}.svg` | every 6 h |
 | Lines of code by language (right) | tokei over the repos in `loc-repos.txt` | `loc_card.py` → `loc-{light,dark}.svg` | daily |
 | Coding calendar | WakaTime daily totals, last 12 months | `wakatime_cards.py` → `calendar-{light,dark}.svg` | every 6 h |
-| GitHub stats with rank | GitHub API | [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) → `github-stats-{light,dark}.svg` | daily |
+| GitHub stats with rank: stars, commits, PRs, merged PRs and their share, reviews, issues, discussions started and answered, repos contributed to | GitHub API | [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action) → `github-stats-{light,dark}.svg` | daily |
 | Streak | [streak-stats.demolab.com](https://streak-stats.demolab.com) | live | live |
 
 **Lines of code:** each repo in `.github/loc-repos.txt` is cloned (latest commit) and

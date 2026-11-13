@@ -99,10 +99,30 @@ def calendar_card(days, t):
     legend += f'<text x="{width - 48}" y="{ly + 9}" font-size="10" fill="{t["muted"]}">More</text>'
     return svg(width, ly + 18 - 12, f'<g transform="translate(0,-12)">{"".join(parts)}{legend}</g>')
 
+def bars_card(rows, t, w=820):
+    """Horizontal bars, one per row: name, bar, hours."""
+    peak = max(v for _, v in rows) or 1
+    parts, y = [], 12
+    for name, v in rows:
+        bw = (w - 200) * v / peak
+        parts.append(f'<text x="16" y="{y + 10}" font-size="12" fill="{t["fg"]}">{esc(name)}</text>')
+        parts.append(f'<rect x="120" y="{y}" width="{max(bw, 2):.1f}" height="13" rx="3" fill="{t["scale"][3]}"/>')
+        parts.append(f'<text x="{126 + bw:.1f}" y="{y + 10}" font-size="11" fill="{t["muted"]}">{hours(v)}</text>')
+        y += 21
+    return svg(w, y + 4, "".join(parts))
+
+def editors(stats):
+    """All-time hours per editor, with the Codex CLI and VS Code extension counted as one."""
+    merged = {}
+    for e in stats["editors"]:
+        name = "Codex" if e["name"].startswith("Codex") else e["name"]
+        merged[name] = merged.get(name, 0) + e["total_seconds"]
+    return sorted(((n, v) for n, v in merged.items() if v >= 3600), key=lambda r: -r[1])[:7]
+
 def main():
     OUT.mkdir(exist_ok=True)
-    langs_all = api("/stats/all_time")["data"]["languages"]
-    langs = [(l["name"], l["total_seconds"]) for l in langs_all if l["name"] not in NOT_CODE][:8]
+    stats = api("/stats/all_time")["data"]
+    langs = [(l["name"], l["total_seconds"]) for l in stats["languages"] if l["name"] not in NOT_CODE][:8]
 
     end = dt.date.today(); start = end - dt.timedelta(days=371)
     data, s = [], start
@@ -117,6 +137,7 @@ def main():
     for name, t in THEMES.items():
         (OUT / f"languages-{name}.svg").write_text(languages_card(langs, t))
         (OUT / f"calendar-{name}.svg").write_text(calendar_card(days, t))
+        (OUT / f"editors-{name}.svg").write_text(bars_card(editors(stats), t))
     print("languages:", [(n, round(s / 3600)) for n, s in langs])
     print("calendar days:", len(days))
 

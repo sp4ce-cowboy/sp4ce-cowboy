@@ -39,7 +39,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=light_github&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=light_github&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage
           path: badges/github-stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: GitHub stats card (dark)
@@ -47,7 +47,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=dark_github&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=dark_github&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage
           path: badges/github-stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to the output branch
