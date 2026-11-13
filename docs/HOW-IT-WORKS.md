@@ -32,13 +32,14 @@ Plain Markdown: a `sh` code block. Edit it directly in `README.md`.
 | Badges: all time, last 30 days, last 7 days, days coded (days with any coding activity) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
 
 ### tech stack
-Plain text aligned with spaces, no table. The list lives in `.github/techstack.txt` (a category on its
-own line, then one indented `Name | link` line per skill; leave out the link for a plain name).
-`techstack.py` writes it into `README.md` between the `tech stack` comments: each label is padded
-with Unicode spaces up to the widest label, using character widths measured in GitHub's font
-(`font-widths.json`, from Chrome on macOS), and long lists wrap onto indented lines at 790 px. Each
-skill links to the code or write-up where it is used. To change it, edit `techstack.txt` and run
-`python3 .github/scripts/techstack.py`.
+Plain text aligned with spaces, one line per category, no table. The list lives in
+`.github/techstack.txt` (a category on its own line, then one indented `Name | link` line per skill;
+leave out the link for a plain name). `techstack.py` writes it into `README.md` between the
+`tech stack` comments: each label is padded with Unicode spaces up to the widest label, using
+character widths measured in GitHub's font (`font-widths.json`, from Chrome on macOS). It warns when a
+line is wider than 830 px (GitHub's README column is about 848 px on screens 1280 px and wider); move
+a skill to another category if so. Each skill links to the code or write-up where it is used. To
+change it, edit `techstack.txt` and run `python3 .github/scripts/techstack.py`.
 
 ### some stats
 | Item | Source | Made by | Refreshed |
