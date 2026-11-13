@@ -8,12 +8,12 @@ Reads the API key from WAKATIME_API_KEY (GitHub Actions secret) or ~/.wakatime-t
 """
 import base64, datetime as dt, html, json, math, os, pathlib, urllib.parse, urllib.request
 
-key = os.environ.get("WAKATIME_API_KEY") or pathlib.Path.home().joinpath(".wakatime-token").read_text().strip()
-AUTH = {"Authorization": "Basic " + base64.b64encode(key.encode()).decode()}
 OUT = pathlib.Path(__file__).resolve().parents[2] / "badges"
 
 def api(path):
-    req = urllib.request.Request("https://wakatime.com/api/v1/users/current" + path, headers=AUTH)
+    key = os.environ.get("WAKATIME_API_KEY") or pathlib.Path.home().joinpath(".wakatime-token").read_text().strip()
+    auth = {"Authorization": "Basic " + base64.b64encode(key.encode()).decode()}
+    req = urllib.request.Request("https://wakatime.com/api/v1/users/current" + path, headers=auth)
     return json.load(urllib.request.urlopen(req, timeout=60))
 
 THEMES = {
@@ -40,7 +40,8 @@ def hours(seconds):
     return f"{h:,.0f} h" if h >= 10 else f"{h:.1f} h"
 
 # --- languages donut ------------------------------------------------------------------------
-def languages_card(langs, t):
+def languages_card(langs, t, title="Coding time by language", fmt=None, centre="all time"):
+    fmt = fmt or hours
     total = sum(s for _, s in langs)
     r, cx, cy, sw = 62, 95, 100, 26
     circ = 2 * math.pi * r
@@ -52,17 +53,17 @@ def languages_card(langs, t):
                      f'stroke-dasharray="{seg:.2f} {circ - seg:.2f}" stroke-dashoffset="{-offset:.2f}" '
                      f'transform="rotate(-90 {cx} {cy})"/>')
         offset += seg
-    parts.append(f'<text x="{cx}" y="{cy - 4}" text-anchor="middle" font-size="17" font-weight="600" fill="{t["fg"]}">{hours(total)}</text>')
-    parts.append(f'<text x="{cx}" y="{cy + 15}" text-anchor="middle" font-size="11" fill="{t["muted"]}">all time</text>')
+    parts.append(f'<text x="{cx}" y="{cy - 4}" text-anchor="middle" font-size="17" font-weight="600" fill="{t["fg"]}">{fmt(total)}</text>')
+    parts.append(f'<text x="{cx}" y="{cy + 15}" text-anchor="middle" font-size="11" fill="{t["muted"]}">{esc(centre)}</text>')
     y = 38
     for name, s in langs:
         color = LANG_COLORS.get(name, "#8b949e")
         parts.append(f'<rect x="190" y="{y - 9}" width="10" height="10" rx="2" fill="{color}"/>')
         parts.append(f'<text x="208" y="{y}" font-size="12.5" fill="{t["fg"]}">{esc(name)}</text>')
-        parts.append(f'<text x="330" y="{y}" font-size="12.5" text-anchor="end" fill="{t["muted"]}">{hours(s)}</text>')
+        parts.append(f'<text x="330" y="{y}" font-size="12.5" text-anchor="end" fill="{t["muted"]}">{fmt(s)}</text>')
         parts.append(f'<text x="385" y="{y}" font-size="12.5" text-anchor="end" fill="{t["muted"]}">{100 * s / total:.0f}%</text>')
         y += 19
-    title = f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">Coding time by language</text>'
+    title = f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">{esc(title)}</text>'
     return svg(400, 200, title + "".join(parts))
 
 # --- calendar heatmap -----------------------------------------------------------------------
@@ -101,31 +102,23 @@ def calendar_card(days, t):
 
 # --- AI card --------------------------------------------------------------------------------
 def ai_card(ai, t):
-    w = 440
+    w = 400
     rows = [("AI coding time", hours(ai["ai_seconds"])),
             ("Agent sessions", f'{ai["sessions"]:,}'),
-            ("Prompts", f'{ai["prompts"]:,}'),
-            ("Lines written by AI", f'{ai["ai_lines"]:,}')]
-    parts = [f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">AI-assisted engineering</text>',
+            ("Prompts", f'{ai["prompts"]:,}')]
+    parts = [f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">Working with AI agents</text>',
              f'<text x="{w - 16}" y="22" font-size="11" text-anchor="end" fill="{t["muted"]}">last 12 months</text>']
-    y = 50
+    y = 52
     for label, value in rows:
         parts.append(f'<text x="16" y="{y}" font-size="12.5" fill="{t["muted"]}">{esc(label)}</text>')
         parts.append(f'<text x="{w - 16}" y="{y}" font-size="12.5" font-weight="600" text-anchor="end" fill="{t["fg"]}">{esc(value)}</text>')
-        y += 20
-    # share of added lines: by hand vs AI
-    total = ai["ai_lines"] + ai["human_lines"] or 1
-    share = ai["ai_lines"] / total
-    bw = w - 32
-    parts.append(f'<text x="16" y="{y + 8}" font-size="11.5" fill="{t["muted"]}">Lines added: {100 * (1 - share):.0f}% by hand, {100 * share:.0f}% with AI</text>')
-    parts.append(f'<rect x="16" y="{y + 15}" width="{bw}" height="8" rx="4" fill="{t["scale"][2]}"/>')
-    parts.append(f'<rect x="16" y="{y + 15}" width="{max(bw * share, 4):.1f}" height="8" rx="4" fill="#D97757"/>')
-    y += 44
-    models = ", ".join(f'{m["name"]} ({m["lines"]:,} lines)' for m in ai["models"] if m["lines"]) or "n/a"
+        y += 22
+    models = ", ".join(m["name"] for m in ai["models"]) or "n/a"
     agents = ", ".join(f"{n} ({hours(s)})" for n, s in ai["agents"]) or "n/a"
-    parts.append(f'<text x="16" y="{y}" font-size="11.5" fill="{t["muted"]}">Models: <tspan fill="{t["fg"]}">{esc(models)}</tspan></text>')
-    parts.append(f'<text x="16" y="{y + 18}" font-size="11.5" fill="{t["muted"]}">Agents: <tspan fill="{t["fg"]}">{esc(agents)}</tspan></text>')
-    return svg(w, y + 30, "".join(parts))
+    y += 8
+    parts.append(f'<text x="16" y="{y}" font-size="11.5" fill="{t["muted"]}">Agents: <tspan fill="{t["fg"]}">{esc(agents)}</tspan></text>')
+    parts.append(f'<text x="16" y="{y + 20}" font-size="11.5" fill="{t["muted"]}">Models: <tspan fill="{t["fg"]}">{esc(models)}</tspan></text>')
+    return svg(w, 200, "".join(parts))
 
 def main():
     OUT.mkdir(exist_ok=True)
