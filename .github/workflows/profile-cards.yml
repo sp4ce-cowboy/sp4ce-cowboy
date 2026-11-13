@@ -1,0 +1,59 @@
+name: Profile cards
+# Generates the README's badges and cards and publishes them to the `output` branch,
+# replaced on every run (one commit, no history), so `main` only has hand-written commits.
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # WakaTime badges and cards
+    - cron: "30 2 * * *"      # plus lines of code and the GitHub stats card, once a day
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      DAILY: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '30 2 * * *' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start from the last published cards
+        run: |
+          mkdir -p badges
+          if git fetch -q origin output; then git --work-tree=badges checkout origin/output -- .; git reset -q; fi
+      - name: WakaTime badges and cards
+        run: python3 .github/scripts/wakatime_badges.py && python3 .github/scripts/wakatime_cards.py
+      - name: Lines of code
+        if: env.DAILY == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.LOC_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "LOC_TOKEN not set; keeping the last numbers"; exit 0; fi
+          curl -sL https://github.com/XAMPPRocky/tokei/releases/download/v12.1.2/tokei-x86_64-unknown-linux-gnu.tar.gz | tar -xz
+          sudo mv tokei /usr/local/bin/
+          python3 .github/scripts/loc_card.py
+      - name: GitHub stats card (light)
+        if: env.DAILY == 'true'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=light_github&hide_border=true
+          path: badges/github-stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: GitHub stats card (dark)
+        if: env.DAILY == 'true'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=dark_github&hide_border=true
+          path: badges/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to the output branch
+        run: |
+          cd badges
+          git init -q -b output
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Profile cards"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" output

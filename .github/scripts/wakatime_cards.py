@@ -2,7 +2,6 @@
 
   languages-{light,dark}.svg  all-time coding time by language (donut)
   calendar-{light,dark}.svg   daily coding time over the last 12 months
-  ai-{light,dark}.svg         AI-assisted engineering over the last 12 months
 
 Reads the API key from WAKATIME_API_KEY (GitHub Actions secret) or ~/.wakatime-token.
 """
@@ -93,34 +92,12 @@ def calendar_card(days, t):
         parts.append(f'<text x="2" y="{top + i * (cell + gap) + 9}" font-size="10" fill="{t["muted"]}">{name}</text>')
     width = left + (col + 1) * (cell + gap) + 10
     total = sum(days.values()); active = sum(1 for s in days.values() if s > 0)
-    title = (f'<text x="2" y="14" font-size="14" font-weight="600" fill="{t["fg"]}">Coding activity, last 12 months</text>'
-             f'<text x="{width - 10}" y="14" font-size="11.5" text-anchor="end" fill="{t["muted"]}">{hours(total)} over {active} days</text>')
     ly = top + 7 * (cell + gap) + 12
     legend = f'<text x="{width - 150}" y="{ly + 9}" font-size="10" fill="{t["muted"]}">Less</text>'
     for i in range(5):
         legend += f'<rect x="{width - 122 + i * (cell + gap)}" y="{ly}" width="{cell}" height="{cell}" rx="2" fill="{t["scale"][i]}"/>'
     legend += f'<text x="{width - 48}" y="{ly + 9}" font-size="10" fill="{t["muted"]}">More</text>'
-    return svg(width, ly + 18, title + "".join(parts) + legend)
-
-# --- AI card --------------------------------------------------------------------------------
-def ai_card(ai, t):
-    w = 400
-    rows = [("AI coding time", hours(ai["ai_seconds"])),
-            ("Agent sessions", f'{ai["sessions"]:,}'),
-            ("Prompts", f'{ai["prompts"]:,}')]
-    parts = [f'<text x="16" y="22" font-size="14" font-weight="600" fill="{t["fg"]}">Working with AI agents</text>',
-             f'<text x="{w - 16}" y="22" font-size="11" text-anchor="end" fill="{t["muted"]}">last 12 months</text>']
-    y = 52
-    for label, value in rows:
-        parts.append(f'<text x="16" y="{y}" font-size="12.5" fill="{t["muted"]}">{esc(label)}</text>')
-        parts.append(f'<text x="{w - 16}" y="{y}" font-size="12.5" font-weight="600" text-anchor="end" fill="{t["fg"]}">{esc(value)}</text>')
-        y += 22
-    models = ", ".join(m["name"] for m in ai["models"]) or "n/a"
-    agents = ", ".join(f"{n} ({hours(s)})" for n, s in ai["agents"]) or "n/a"
-    y += 8
-    parts.append(f'<text x="16" y="{y}" font-size="11.5" fill="{t["muted"]}">Agents: <tspan fill="{t["fg"]}">{esc(agents)}</tspan></text>')
-    parts.append(f'<text x="16" y="{y + 20}" font-size="11.5" fill="{t["muted"]}">Models: <tspan fill="{t["fg"]}">{esc(models)}</tspan></text>')
-    return svg(w, 200, "".join(parts))
+    return svg(width, ly + 18 - 22, f'<g transform="translate(0,-22)">{"".join(parts)}{legend}</g>')
 
 def main():
     OUT.mkdir(exist_ok=True)
@@ -133,34 +110,15 @@ def main():
         e = min(s + dt.timedelta(days=89), end)
         data += api("/summaries?" + urllib.parse.urlencode({"start": s.isoformat(), "end": e.isoformat()}))["data"]
         s = e + dt.timedelta(days=1)
-    days, ai = {}, dict(ai_seconds=0, sessions=0, prompts=0, ai_lines=0, human_lines=0)
-    models, agents = {}, {}
+    days = {}
     for day in data:
-        d = dt.date.fromisoformat(day["range"]["date"])
-        days[d] = day["grand_total"]["total_seconds"]
-        g = day["grand_total"]
-        ai["sessions"] += g.get("ai_sessions") or 0
-        ai["prompts"] += g.get("ai_prompt_events_total") or 0
-        ai["ai_lines"] += g.get("ai_additions") or 0
-        ai["human_lines"] += g.get("human_additions") or 0
-        for m in g.get("ai_model_breakdown") or []:
-            models[m["name"]] = models.get(m["name"], 0) + (m.get("lines") or 0)
-        for c in day.get("categories", []):
-            if c["name"] == "AI Coding": ai["ai_seconds"] += c["total_seconds"]
-        for e in day.get("editors", []):
-            name = "Codex" if e["name"].startswith("Codex") else e["name"]
-            if name in ("Claude Code", "Codex", "Cursor", "Copilot", "Windsurf", "Gemini CLI"):
-                agents[name] = agents.get(name, 0) + e["total_seconds"]
-    ai["models"] = sorted(({"name": k, "lines": v} for k, v in models.items() if "codex" not in k.lower()),
-                          key=lambda m: -m["lines"])[:3]
-    ai["agents"] = sorted(agents.items(), key=lambda x: -x[1])
+        days[dt.date.fromisoformat(day["range"]["date"])] = day["grand_total"]["total_seconds"]
 
     for name, t in THEMES.items():
         (OUT / f"languages-{name}.svg").write_text(languages_card(langs, t))
         (OUT / f"calendar-{name}.svg").write_text(calendar_card(days, t))
-        (OUT / f"ai-{name}.svg").write_text(ai_card(ai, t))
     print("languages:", [(n, round(s / 3600)) for n, s in langs])
-    print("calendar days:", len(days), "AI:", {k: v for k, v in ai.items() if k not in ("models",)}, ai["models"])
+    print("calendar days:", len(days))
 
 if __name__ == "__main__":
     main()

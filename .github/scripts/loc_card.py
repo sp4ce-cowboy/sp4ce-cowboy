@@ -43,7 +43,7 @@ def main():
     total = sum(langs.values())
     for name, t in THEMES.items():
         (OUT / f"loc-{name}.svg").write_text(languages_card(shown, t,
-                                                            fmt=lines, centre=f"{len(names)} repos"))
+                                                            fmt=lines, centre="lines"))
     (OUT / "loc.json").write_text(json.dumps({"schemaVersion": 1, "label": "lines of code", "message": lines(total),
                                               "color": "555"}) + "\n")
     print(f"{total:,} lines of code in {len(names)} repos:", [(k, v) for k, v in shown])
