@@ -1,0 +1,35 @@
+# Repos counted in the lines-of-code badge. One name per line; edit freely.
+# Code only (tokei "code" lines: no blank lines, no comments), and no Markdown, data files,
+# vendored libraries or generated docs. Team projects are included as a whole.
+
+# Portfolio (public)
+AddamNet
+AquAlarm
+artificial-consciousness
+autonomous-robot
+cruel-maps
+dashBoard
+discrete-event-simulator
+housing-system-dynamics
+ip
+medibit
+natural-query-language
+nus-wayang-kulit
+OceanX
+PeerPrep
+robotic-system-design
+smart-digital-junction
+SpacePeggle
+tp
+TowerForge
+wanderminds
+
+# Private code (the public makaber and course-expiry pages hold no code)
+makaber-private
+course-expiry-private
+PlainNotes
+
+# Coursework and practice
+PeerPrepUIPrototype
+CS2040
+leetcode

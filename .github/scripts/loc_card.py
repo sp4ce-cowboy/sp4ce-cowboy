@@ -1,6 +1,6 @@
-"""Count lines of code across the portfolio repos with tokei and draw a donut card (light and dark).
+"""Count lines of code across my repos with tokei and draw a donut card (light and dark).
 
-Clones every public repo tagged `portfolio` (shallow), runs tokei, and writes badges/loc-{light,dark}.svg
+Clones every repo listed in .github/loc-repos.txt (shallow), runs tokei, and writes badges/loc-{light,dark}.svg
 and badges/loc.json (a shields.io endpoint badge). Needs `gh`, `git` and `tokei` on PATH.
 Team repositories are included, so the total is code in my project repos, not only lines I wrote.
 """
@@ -18,14 +18,15 @@ def lines(n):
     return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
 
 def main():
-    repos = json.loads(subprocess.run(["gh", "repo", "list", "sp4ce-cowboy", "--topic", "portfolio", "--visibility",
-                                       "public", "--limit", "100", "--json", "name"], capture_output=True, text=True,
-                                      check=True).stdout)
-    names = sorted(r["name"] for r in repos)
+    listing = pathlib.Path(__file__).resolve().parents[1] / "loc-repos.txt"
+    names = [l.strip() for l in listing.read_text().splitlines() if l.strip() and not l.startswith("#")]
     work = pathlib.Path(tempfile.mkdtemp())
-    for n in names:
-        subprocess.run(["git", "clone", "-q", "--depth", "1", f"https://github.com/sp4ce-cowboy/{n}.git", str(work / n)],
-                       check=True)
+    for n in names:   # gh uses GH_TOKEN in CI (a read-only token that can see private repos), else the local login
+        r = subprocess.run(["gh", "repo", "clone", f"sp4ce-cowboy/{n}", str(work / n), "--", "-q", "--depth", "1"],
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            print(f"could not clone {n}; keeping the last published numbers", file=sys.stderr)
+            return
     args = ["tokei", "--output", "json"] + [x for e in EXCLUDE for x in ("--exclude", e)] + [str(work)]
     data = json.loads(subprocess.run(args, capture_output=True, text=True, check=True).stdout)
     merge = {"TSX": "TypeScript", "JSX": "JavaScript", "C Header": "C", "C++ Header": "C++", "Objective-C++": "Objective-C"}
