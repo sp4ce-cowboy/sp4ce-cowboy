@@ -13,6 +13,7 @@ How each part of [README.md](../README.md) is made and how to change it.
 | `.github/scripts/` | Scripts that draw the badges and cards |
 | `.github/workflows/profile-cards.yml` | The schedule that runs them |
 | `.github/loc-repos.txt` | Which repos the lines-of-code chart counts |
+| `.github/techstack.txt` | The tech stack's skills and links (`techstack.py` writes them into the README) |
 | `output` branch | The generated badges and cards the page loads |
 
 ## Light and dark mode
