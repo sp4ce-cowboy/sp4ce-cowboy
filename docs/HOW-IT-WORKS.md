@@ -45,7 +45,9 @@ change it, edit `techstack.txt` and run `python3 .github/scripts/techstack.py`.
 ### my projects
 The same layout as the tech stack, one line per domain (apple, work, research, hackathons, awards,
 coursework, systems, engineering, personal); a project is listed under every domain it fits, so names
-can repeat. Each links to its repo. The list
+can repeat. Each links to its repo. Each line is newest first: every project in `projects.txt` carries
+its dates as a third field (`| 2024-01..2024-03`, or a single month or year), and the script sorts by
+end date, then start date. The list
 lives in `.github/projects.txt` (same format) and `techstack.py` writes both sections, with one label
 column shared by the two so they line up. Edit the list and run `python3 .github/scripts/techstack.py`.
 

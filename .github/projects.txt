@@ -1,42 +1,42 @@
 apple
-  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
+  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle | 2024-01..2024-03
+  TowerForge | https://github.com/sp4ce-cowboy/TowerForge | 2024-03..2024-04
 work
-  Makaber | https://github.com/sp4ce-cowboy/makaber
-  Course Expiry | https://github.com/sp4ce-cowboy/course-expiry
-  Natural Query Language | https://github.com/sp4ce-cowboy/natural-query-language
-  Smart Digital Junction | https://github.com/sp4ce-cowboy/smart-digital-junction
-  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
+  Makaber | https://github.com/sp4ce-cowboy/makaber | 2025-02..2025-07
+  Course Expiry | https://github.com/sp4ce-cowboy/course-expiry | 2025-05..2025-07
+  Natural Query Language | https://github.com/sp4ce-cowboy/natural-query-language | 2024-09..2024-12
+  Smart Digital Junction | https://github.com/sp4ce-cowboy/smart-digital-junction | 2024-08..2025-01
+  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit | 2024-08..2025-02
 research
-  AddamNet | https://github.com/sp4ce-cowboy/AddamNet
-  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
-  OceanX | https://github.com/sp4ce-cowboy/OceanX
-  Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness
+  AddamNet | https://github.com/sp4ce-cowboy/AddamNet | 2025-08..2026-04
+  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit | 2024-08..2025-02
+  OceanX | https://github.com/sp4ce-cowboy/OceanX | 2016
+  Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness | 2023-10..2023-11
 hackathons
-  wanderminds | https://github.com/sp4ce-cowboy/wanderminds
-  Cruel Maps | https://github.com/sp4ce-cowboy/cruel-maps
-  AquAlarm | https://github.com/sp4ce-cowboy/AquAlarm
-  Medibit | https://github.com/sp4ce-cowboy/medibit
+  wanderminds | https://github.com/sp4ce-cowboy/wanderminds | 2025-04
+  Cruel Maps | https://github.com/sp4ce-cowboy/cruel-maps | 2024-01
+  AquAlarm | https://github.com/sp4ce-cowboy/AquAlarm | 2019-01
+  Medibit | https://github.com/sp4ce-cowboy/medibit | 2019
 awards
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-  OceanX | https://github.com/sp4ce-cowboy/OceanX
-  Medibit | https://github.com/sp4ce-cowboy/medibit
-  Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness
+  TowerForge | https://github.com/sp4ce-cowboy/TowerForge | 2024-03..2024-04
+  OceanX | https://github.com/sp4ce-cowboy/OceanX | 2016
+  Medibit | https://github.com/sp4ce-cowboy/medibit | 2019
+  Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness | 2023-10..2023-11
 
 coursework
-  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-  PeerPrep | https://github.com/sp4ce-cowboy/PeerPrep
-  UniCa$h | https://github.com/sp4ce-cowboy/tp
-  ChatterBox | https://github.com/sp4ce-cowboy/ip
-  Discrete Event Simulator | https://github.com/sp4ce-cowboy/discrete-event-simulator
+  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle | 2024-01..2024-03
+  TowerForge | https://github.com/sp4ce-cowboy/TowerForge | 2024-03..2024-04
+  PeerPrep | https://github.com/sp4ce-cowboy/PeerPrep | 2024-08..2024-11
+  UniCa$h | https://github.com/sp4ce-cowboy/tp | 2023-09..2023-11
+  ChatterBox | https://github.com/sp4ce-cowboy/ip | 2023-08..2023-10
+  Discrete Event Simulator | https://github.com/sp4ce-cowboy/discrete-event-simulator | 2023-02..2023-03
 systems
-  Computer Organisation | https://github.com/sp4ce-cowboy/computer-organisation
-  Operating Systems | https://github.com/sp4ce-cowboy/operating-systems
+  Computer Organisation | https://github.com/sp4ce-cowboy/computer-organisation | 2023-08..2023-11
+  Operating Systems | https://github.com/sp4ce-cowboy/operating-systems | 2024-08..2024-11
 engineering
-  Robotic System Design | https://github.com/sp4ce-cowboy/robotic-system-design
-  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot
-  SolidWorks CAD | https://github.com/sp4ce-cowboy/solidworks-cad
-  Housing System Dynamics | https://github.com/sp4ce-cowboy/housing-system-dynamics
+  Robotic System Design | https://github.com/sp4ce-cowboy/robotic-system-design | 2024-10..2024-11
+  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot | 2022-08..2022-11
+  SolidWorks CAD | https://github.com/sp4ce-cowboy/solidworks-cad | 2023-08..2023-11
+  Housing System Dynamics | https://github.com/sp4ce-cowboy/housing-system-dynamics | 2023-10..2023-11
 personal
-  dashBoard | https://github.com/sp4ce-cowboy/dashBoard
+  dashBoard | https://github.com/sp4ce-cowboy/dashBoard | 2022-12

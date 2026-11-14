@@ -2,7 +2,8 @@
 .github/projects.txt, aligned with spaces.
 
 Each list: a category name on its own line, then one indented line per entry: `Name | link`
-(or just `Name`). A blank line starts a new group; groups are separate paragraphs on the page.
+(or just `Name`), optionally followed by `| dates` (`2024`, `2024-03` or `2024-01..2024-03`): dated
+entries are listed newest first, by end date, then by start date. A blank line starts a new group; groups are separate paragraphs on the page.
 Every list starts at the same place: each label is padded with Unicode spaces (em, en, thin…) up to
 the widest label of both lists, using character widths measured in GitHub's font
 (font-widths.json). Each category stays on one line; the script warns when one is wider than
@@ -40,19 +41,30 @@ def read(path):
         if not line.startswith(" "):
             cats.append((line.strip(), []))
         else:
-            name, _, link = (x.strip() for x in line.strip().partition("|"))
-            cats[-1][1].append((name, link))
+            name, link, dates = (line.strip().split("|") + ["", ""])[:3]
+            cats[-1][1].append((name.strip(), link.strip(), dates.strip()))
+    for _, items in cats:
+        items.sort(key=lambda item: newest_first(item[2]))
     return cats, starts
+
+def newest_first(dates):
+    """Sort key: latest end date first, then latest start; undated entries keep their place at the end.
+    A bare year counts as the end of that year."""
+    if not dates:
+        return (1, 0, 0)
+    month = lambda d: int(d[:4]) * 12 + (int(d[5:7]) if len(d) >= 7 else 12)
+    start, _, end = dates.partition("..")
+    return (0, -month(end or start), -month(start))
 
 def render(cats, starts, column):
     sep = " · "
     blocks = []
     for label, items in cats:
-        used = column + width(sep.join(n for n, _ in items))
+        used = column + width(sep.join(n for n, _, _ in items))
         if used > MAX_WIDTH:
             print(f"warning: {label} is {used:.0f} px wide, over {MAX_WIDTH} px; it will wrap on GitHub")
         md = lambda n: n.replace("$", "\\$")       # a lone $ would start GitHub's inline maths
-        links = sep.join(f"[{md(n)}]({l})" if l else md(n) for n, l in items)
+        links = sep.join(f"[{md(n)}]({l})" if l else md(n) for n, l, _ in items)
         blocks.append(f"**{label}**" + pad(column - width(label, "semibold")) + links)
     body = ""
     for i, block in enumerate(blocks):
