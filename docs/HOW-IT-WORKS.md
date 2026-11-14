@@ -71,13 +71,6 @@ Language colours are in `LANG_COLORS`, the light and dark palettes in `THEMES`.
 **Caching:** GitHub serves README images through its own cache. After changing how a card looks,
 add or bump a `?v=` on its URL in `README.md` so the new version shows straight away.
 
-## rubesh.dev
-
-[rubesh.dev](https://rubesh.dev) shows the same bio, tech stack and projects. Its page is built by `build.py`
-in [sp4ce-cowboy.github.io](https://github.com/sp4ce-cowboy/sp4ce-cowboy.github.io) from this repo's
-`README.md` (the whoami block), `techstack.txt` and `projects.txt`. After changing them here, run
-`python3 build.py` there and push, so the site matches.
-
 ## The workflow
 
 `profile-cards.yml` runs every 6 hours (WakaTime) and once a day (lines of code and the GitHub stats
