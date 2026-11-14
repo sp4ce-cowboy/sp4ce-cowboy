@@ -1,71 +1,15 @@
 apple
   Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
   TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-mobile
-  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-  wanderminds | https://github.com/sp4ce-cowboy/wanderminds
-  Cruel Maps | https://github.com/sp4ce-cowboy/cruel-maps
-games
-  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-web
-  PeerPrep | https://github.com/sp4ce-cowboy/PeerPrep
-  Digital Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
-backend
+work
   Makaber | https://github.com/sp4ce-cowboy/makaber
   Course Expiry | https://github.com/sp4ce-cowboy/course-expiry
-  PeerPrep | https://github.com/sp4ce-cowboy/PeerPrep
-  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
-data
-  Course Expiry | https://github.com/sp4ce-cowboy/course-expiry
   Natural Query Language | https://github.com/sp4ce-cowboy/natural-query-language
-  dashBoard | https://github.com/sp4ce-cowboy/dashBoard
-ai & llms
-  Natural Query Language | https://github.com/sp4ce-cowboy/natural-query-language
-  wanderminds | https://github.com/sp4ce-cowboy/wanderminds
-  Cruel Maps | https://github.com/sp4ce-cowboy/cruel-maps
-vision
-  AddamNet | https://github.com/sp4ce-cowboy/AddamNet
   Smart Digital Junction | https://github.com/sp4ce-cowboy/smart-digital-junction
-desktop
-  UniCa$h | https://github.com/sp4ce-cowboy/tp
-  ChatterBox | https://github.com/sp4ce-cowboy/ip
-  dashBoard | https://github.com/sp4ce-cowboy/dashBoard
-
-robotics
-  Robotic System Design | https://github.com/sp4ce-cowboy/robotic-system-design
-  AddamNet | https://github.com/sp4ce-cowboy/AddamNet
-  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot
-  OceanX | https://github.com/sp4ce-cowboy/OceanX
-embedded
-  AddamNet | https://github.com/sp4ce-cowboy/AddamNet
-  Smart Digital Junction | https://github.com/sp4ce-cowboy/smart-digital-junction
-  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot
-  OceanX | https://github.com/sp4ce-cowboy/OceanX
-  AquAlarm | https://github.com/sp4ce-cowboy/AquAlarm
-  Medibit | https://github.com/sp4ce-cowboy/medibit
-mechanical
-  SolidWorks CAD | https://github.com/sp4ce-cowboy/solidworks-cad
-  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot
-  OceanX | https://github.com/sp4ce-cowboy/OceanX
-  AquAlarm | https://github.com/sp4ce-cowboy/AquAlarm
-systems
-  Computer Organisation | https://github.com/sp4ce-cowboy/computer-organisation
-  Operating Systems | https://github.com/sp4ce-cowboy/operating-systems
-simulation
-  Discrete Event Simulator | https://github.com/sp4ce-cowboy/discrete-event-simulator
-  Housing System Dynamics | https://github.com/sp4ce-cowboy/housing-system-dynamics
-  Robotic System Design | https://github.com/sp4ce-cowboy/robotic-system-design
-
-industry
-  Makaber | https://github.com/sp4ce-cowboy/makaber
-  Course Expiry | https://github.com/sp4ce-cowboy/course-expiry
-  Smart Digital Junction | https://github.com/sp4ce-cowboy/smart-digital-junction
-  Natural Query Language | https://github.com/sp4ce-cowboy/natural-query-language
+  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
 research
   AddamNet | https://github.com/sp4ce-cowboy/AddamNet
-  Digital Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
+  Wayang Kulit | https://github.com/sp4ce-cowboy/nus-wayang-kulit
   OceanX | https://github.com/sp4ce-cowboy/OceanX
   Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness
 hackathons
@@ -78,3 +22,21 @@ awards
   OceanX | https://github.com/sp4ce-cowboy/OceanX
   Medibit | https://github.com/sp4ce-cowboy/medibit
   Artificial Consciousness | https://github.com/sp4ce-cowboy/artificial-consciousness
+
+coursework
+  Space Peggle | https://github.com/sp4ce-cowboy/SpacePeggle
+  TowerForge | https://github.com/sp4ce-cowboy/TowerForge
+  PeerPrep | https://github.com/sp4ce-cowboy/PeerPrep
+  UniCa$h | https://github.com/sp4ce-cowboy/tp
+  ChatterBox | https://github.com/sp4ce-cowboy/ip
+  Discrete Event Simulator | https://github.com/sp4ce-cowboy/discrete-event-simulator
+systems
+  Computer Organisation | https://github.com/sp4ce-cowboy/computer-organisation
+  Operating Systems | https://github.com/sp4ce-cowboy/operating-systems
+engineering
+  Robotic System Design | https://github.com/sp4ce-cowboy/robotic-system-design
+  Autonomous Robot | https://github.com/sp4ce-cowboy/autonomous-robot
+  SolidWorks CAD | https://github.com/sp4ce-cowboy/solidworks-cad
+  Housing System Dynamics | https://github.com/sp4ce-cowboy/housing-system-dynamics
+personal
+  dashBoard | https://github.com/sp4ce-cowboy/dashBoard
