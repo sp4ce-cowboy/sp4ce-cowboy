@@ -3,10 +3,10 @@
 hello! i'm rubesh
 
 i graduated with a bachelor's degree in engineering (honours) from the national university of singapore.
-I did double majors in mechanical engineering and computer science with a specialization in Robotics.
+i did double majors in mechanical engineering and computer science with a specialization in robotics.
 
-i'm interested in software engineering for apple platforms, and multi-agent orchestration.
-i'm currently working on an agentic constitution to facilitate autonomous inter-agent orchestration.
+i'm interested in software engineering for apple platforms, and agentic systems.
+i'm currently working on an agent constitution to facilitate autonomous inter-agent orchestration.
 ```
 ### recent activity
 <a href="https://wakatime.com/@space_cowboy"><img src="https://img.shields.io/endpoint?url=https%3A//raw.githubusercontent.com/sp4ce-cowboy/sp4ce-cowboy/output/wakatime-all-time.json" alt="all time" /></a>
