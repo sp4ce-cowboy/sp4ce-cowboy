@@ -6,7 +6,7 @@ languages
   JavaScript | https://github.com/sp4ce-cowboy/nus-wayang-kulit/blob/7be6ad25921de924c9ddddfc21979f39225b28c5/src/common/InverseKinematics.js
   C | https://github.com/sp4ce-cowboy/computer-organisation/blob/main/mips-datapath-simulator/mips.c
   C++ | https://github.com/sp4ce-cowboy/robotic-system-design/blob/54daac50e1fe1d8af0c7f0010ea4dc71b6893996/src/ee3305_nav/src/planner.cpp#L175-L260
-  MIPS assembly | https://github.com/sp4ce-cowboy/computer-organisation#mips-assembly-and-c-labs
+  Assembly | https://github.com/sp4ce-cowboy/computer-organisation#mips-assembly-and-c-labs
   Obj-C
 apple
   SwiftUI | https://github.com/sp4ce-cowboy/SpacePeggle/blob/main/ARCHITECTURE.md#3-app-structure
