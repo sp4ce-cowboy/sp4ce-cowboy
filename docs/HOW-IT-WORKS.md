@@ -43,7 +43,8 @@ a skill to another category if so. Each skill links to the code or write-up wher
 change it, edit `techstack.txt` and run `python3 .github/scripts/techstack.py`.
 
 ### my projects
-The same layout as the tech stack: one line per category, each project linking to its repo. The list
+The same layout as the tech stack, one line per domain (apple, backend, robotics, industry, awards…);
+a project is listed under every domain it fits, so names repeat. Each links to its repo. The list
 lives in `.github/projects.txt` (same format) and `techstack.py` writes both sections, with one label
 column shared by the two so they line up. Edit the list and run `python3 .github/scripts/techstack.py`.
 
