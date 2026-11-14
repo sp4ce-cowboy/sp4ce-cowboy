@@ -14,6 +14,7 @@ How each part of [README.md](../README.md) is made and how to change it.
 | `.github/workflows/profile-cards.yml` | The schedule that runs them |
 | `.github/loc-repos.txt` | Which repos the lines-of-code chart counts |
 | `.github/techstack.txt` | The tech stack's skills and links (`techstack.py` writes them into the README) |
+| `.github/projects.txt` | The projects list and links (`techstack.py` writes it into the README) |
 | `output` branch | The generated badges and cards the page loads |
 
 ## Light and dark mode
@@ -31,7 +32,7 @@ Plain Markdown: a `sh` code block. Edit it directly in `README.md`.
 |---|---|---|---|
 | Badges: all time, last 30 days, last 7 days, days coded (days with any coding activity) | WakaTime API | `wakatime_badges.py` writes `wakatime-*.json`; shields.io's [endpoint badge](https://shields.io/badges/endpoint-badge) draws them in WakaTime's colours | every 6 h |
 
-### tech stack
+### my tech stack
 Plain text aligned with spaces, one line per category, no table. The list lives in
 `.github/techstack.txt` (a category on its own line, then one indented `Name | link` line per skill;
 leave out the link for a plain name; a blank line starts a new group, shown as its own paragraph). `techstack.py` writes it into `README.md` between the
@@ -40,6 +41,11 @@ character widths measured in GitHub's font (`font-widths.json`, from Chrome on m
 line is wider than 830 px (GitHub's README column is about 848 px on screens 1280 px and wider); move
 a skill to another category if so. Each skill links to the code or write-up where it is used. To
 change it, edit `techstack.txt` and run `python3 .github/scripts/techstack.py`.
+
+### my projects
+The same layout as the tech stack: one line per category, each project linking to its repo. The list
+lives in `.github/projects.txt` (same format) and `techstack.py` writes both sections, with one label
+column shared by the two so they line up. Edit the list and run `python3 .github/scripts/techstack.py`.
 
 ### some stats
 | Item | Source | Made by | Refreshed |
